@@ -13,6 +13,7 @@
 - **Project:** ree-bau
 - **Description:** This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 - **Architecture:** full binding conventions recorded in `.wolf/architecture-conventions.md` (source: user's `.local/prompt.md`) — `app/` pages are thin Server-Component wrappers around `src/components/views/<Page>/index.tsx`; root layout is the sole Client Component; PascalCase naming; never duplicate components, always reuse; mock data (`src/mocks/`) for Services/Galerie until real endpoints (ISR later); page metadata titles never include the site name (root layout defines the template + default); reusable shared TS types go in `src/types/` (`@/types/...`), not re-declared per file.
+- **Header/MainLayout porting pattern:** when porting the ready theme's Header/Footer, follow the precedent from the user's prior project `medjana` (see `.wolf/architecture-conventions.md` §12): MainLayout is Client Component assembling ScrollToTopButton → Header → children → Footer → CookieConsent → floating widgets in that fixed order; Header drives desktop+mobile nav off one typed `navbarRoutes` constants array (never duplicated), active-link state via a small `usePathname` helper, dropdown vs plain link branches on an optional `subRoutes` field. Styling/classnames are theme-specific — only the structural logic carries over.
 
 ## Do-Not-Repeat
 
@@ -20,6 +21,9 @@
 <!-- Format: [YYYY-MM-DD] Description of what went wrong and what to do instead. -->
 
 - [2026-08-08] User's ready-made JSX theme lives under `.local/`. Do not browse or pull from any `.local` theme path on your own — only touch the exact path the user explicitly gives, one at a time.
+- [2026-08-08] When porting a theme component (e.g. Header), also check the theme's `pages/_document.js` and `pages/_app.js` for vendor stylesheets loaded via plain `<link>` tags (e.g. bootstrap.min.css, fontawesome.min.css) — these don't show up in the component file or the SCSS partials, but the ported markup (grid classes like `container`/`row`/`col-lg-*`, icon fonts) silently breaks without them. Copy the linked CSS + any fonts/assets it references (check for relative `url()` paths) into `public/`, and add matching `<link>` tags to the root layout's `<head>`.
+- [2026-08-08] When simplifying a theme's inline SVG (stripping unused `<defs>`/`<clipPath>`/`<g>` wrappers), check every child `<path>` for a `transform="translate(...)"` attribute first — these position the path within the viewBox and must move onto the path directly, not get dropped with the wrapper. Dropping one silently mispositions/overlaps icon shapes (bug-002).
+- [2026-08-08] Don't preemptively add CSS overrides (especially `!important`) to fix a rendering issue I only foresaw from reading the SCSS, before the user asks for it — when I swapped the footer's icon-only submit button for a text button ("Jetzt anfragen"), I added a `!important`-heavy style.css override anticipating the theme's fixed-size button box would clip the text. User rejected both the text-button change and the override; they wanted the original icon kept and the styling effort spent on the actual ask (Nützliche Links list style) instead. When content changes might visually clash with a rigid themed selector, prefer keeping the original element shape (icon-only button) unless the user explicitly asks for a different visual, and only style what was actually requested.
 
 ## Decision Log
 

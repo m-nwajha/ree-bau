@@ -10,7 +10,11 @@
 
 <!-- Move items here from "🚀 Next phase" when finished. Group by area. -->
 
-- (nothing yet — fill in as work completes)
+- **Theme groundwork:** ported Builty theme's vendor CSS (bootstrap, fontawesome, magnific-popup) + webfonts into `public/`, SCSS partials into `src/styles/scss/`, wired into `src/app/layout.tsx`. Accent color rebranded `#ffee02` → `#e65e24` (single `$accent-1` var). Real logo (`public/images/logo.png`) wired into `ui/Logo.tsx`.
+- **Header:** `src/components/common/Header/index.tsx` ported from theme's `DefaultHeader.js` — desktop/mobile nav off one `navbarRoutes` const (dropdown support via `subRoutes`), active-link state, dark/light theme toggle (`useLocalStorage`), off-canvas info panel, phone CTA. Real social links (Instagram, TikTok) wired via `contactInfo`/`socialLinks` consts.
+- **Footer:** `src/components/common/Footer/index.tsx` ported from theme's `DefaultFooter.js` — logo + phone CTA, "Über REEBAU" blurb, **"Nützliche Links"** column (Services/Kontakt/Impressum/AGB/Datenschutzerklärung) replacing the theme's address/phone/email "Contact" column, Newsletter form (structurally ported, not wired — see Open decisions), copyright `© {new Date().getFullYear()} Ree Bau – Powered By OrionLens` (dynamic year, links to orionlens.net).
+- **MainLayout:** `src/components/layouts/MainLayout.tsx` composes `Header → children → Footer`, wired into root layout.
+- **navbarRoutes.ts** now carries the real Services dropdown (Bodenleger, Maler, Fliesenleger, Renovierer, Haustüren, Trockenbau) — supersedes the older 5-service list in `.wolf/reebau-content.md` (that file's Leistungen section is stale, reconcile when building the actual Services page/mock data).
 
 ---
 
@@ -49,11 +53,12 @@ Per confirmed convention (see `.wolf/architecture-conventions.md`): every `app` 
 | new | `src/app/ueber-uns/page.tsx` + `views/About/index.tsx` | About page |
 | new | `src/app/kontakt/page.tsx` + `views/Kontakt/index.tsx` | Contact page + form + map |
 | new | `src/app/impressum/page.tsx`, `agb/page.tsx`, `datenschutz/page.tsx` + matching views | Legal pages |
-| new | `src/components/common/` — `Header`, `Footer`, cookie-consent, `ScrollToTopButton` | Shared global chrome, used in root layout |
+| done | `src/components/common/Header/`, `Footer/` | Shared global chrome, wired into `MainLayout` |
+| new | `src/components/common/CookieConsent`, `ScrollToTopButton` | Still pending |
 | new | `src/components/ui/` — `Button`, `Popup`, `Inputs`, etc. | Generic primitives |
-| new | `src/constants/` — e.g. contact info | Reused-everywhere data |
-| new | `src/styles/` | Global styles + CSS pulled from the user's ready-made template |
-| new | `src/types/` (`@/types/...`) | Reusable shared TS types (e.g. `Service`, `GalerieItem`, `ContactInfo`) used by mocks + views together |
+| done | `src/constants/navbar-routes.ts`, `contact-info.ts` | Reused-everywhere data |
+| done | `src/styles/` | Global styles + CSS pulled from the user's ready-made template |
+| done | `src/@types/navigation.ts` (`@/@types/...` — actual folder is `@types`, not `types`) | Reusable shared TS types |
 
 ### Closed decisions
 - Site content sourced from `.wolf/reebau-content.md` (mirrors user-provided `.local/contant.md`, which is gitignored).
@@ -67,7 +72,9 @@ Per confirmed convention (see `.wolf/architecture-conventions.md`): every `app` 
 - Galerie: no images/copy provided yet — need source material.
 - Legal pages (Impressum/AGB/Datenschutzerklärung): no source copy yet — need real company/legal details from user, or explicit placeholder approval.
 - Google Maps / translation / tracking: which providers, and cookie-consent handling (custom vs. library)?
-- Exact `mocks`/`constants` directory paths — confirm on first use per `.wolf/architecture-conventions.md` §5-6.
+- Exact `mocks` directory path — confirm on first use per `.wolf/architecture-conventions.md` §5 (constants/@types locations are now settled: `src/constants/`, `src/@types/`).
+- Footer Newsletter form has no real backend wired (theme used Mailchimp with placeholder keys) — needs a real provider or should be dropped.
+- Services list mismatch: `navbarRoutes.ts` now has 6 real services (Bodenleger, Maler, Fliesenleger, Renovierer, Haustüren, Trockenbau) but `.wolf/reebau-content.md` still documents the original 5 (Innenausbau, Raumausstattung, Trockenbau, Malerarbeiten, Bodenverlegung) — reconcile before building the Services listing/detail pages and mock data.
 
 ---
 

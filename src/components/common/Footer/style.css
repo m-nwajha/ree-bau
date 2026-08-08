@@ -1,0 +1,18 @@
+.footer-links {
+  margin-left: 0;
+  padding-left: 0;
+}
+.footer-links li a {
+  color: #b7b7b7;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer-links li a:hover {
+  color: #e65e24;
+}
+
+.contact-info svg {
+  flex-shrink: 0;
+  margin-right: 14px;
+  color: #e65e24;
+}

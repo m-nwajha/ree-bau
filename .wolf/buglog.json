@@ -1,4 +1,29 @@
 {
   "version": 1,
-  "bugs": []
+  "bugs": [
+    {
+      "id": "bug-001",
+      "timestamp": "2026-08-08T00:00:00Z",
+      "error_message": "Ported Header looked completely unstyled/broken (no spacing, logo/nav ran together, no grid) compared to the Builty theme's original DefaultHeader screenshot",
+      "file": "src/app/layout.tsx, src/components/common/Header.tsx",
+      "root_cause": "The theme's _document.js links three vendor stylesheets directly (public/css/bootstrap.min.css, fontawesome.min.css, magnific-popup.css) instead of bundling them through the SCSS partials. When Header.tsx + style.scss were ported, those three <link> tags were not carried over, so Header markup (which depends on Bootstrap's container/row/col-lg-12/flex utilities) had no grid/utility CSS at all — hence everything collapsed to unstyled block layout.",
+      "fix": "Copied public/css/{bootstrap.min.css,bootstrap.min.css.map,fontawesome.min.css,magnific-popup.css} and public/webfonts/* from the theme into the project's public/ folder (matching the theme's own convention of referencing assets by absolute /path, confirmed by the same pattern in _basic.scss url() references), then added the three <link rel=\"stylesheet\"> tags to src/app/layout.tsx's <head>, matching the theme's _document.js order. Wrapped in an eslint-disable for @next/next/no-css-tags since these are prebuilt vendor bundles meant to be served as static files, not run through webpack's CSS pipeline.",
+      "tags": ["css", "styling", "theme-porting", "bootstrap", "fontawesome", "header"],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-08-08T00:00:00Z"
+    },
+    {
+      "id": "bug-002",
+      "timestamp": "2026-08-08T00:00:00Z",
+      "error_message": "Phone-number CTA icon in the header was invisible (blank dark trapezoid, no phone glyph visible)",
+      "file": "src/components/common/Header/index.tsx",
+      "root_cause": "The original theme SVG wrapped its two paths in <defs><clipPath> + <g id=\"Mobisdfle\">, with transform=\"translate(1 1)\" / transform=\"translate(14 48)\" set on each path to position them inside the 40x62 viewBox. When the SVG was simplified during the initial port (dropping the unused defs/clipPath/g wrapper), the transform attributes were dropped along with them instead of being moved onto the paths directly. Without the translate(14 48), the small 'home button' rect (second path) jumped from the bottom of the icon to the top-left corner, overlapping/canceling with the phone outline so nothing legible rendered.",
+      "fix": "Restored transform=\"translate(1 1)\" on the first path and transform=\"translate(14 48)\" on the second path, keeping the rest of the simplified markup (no defs/clipPath/g needed since nothing else referenced them).",
+      "tags": ["svg", "icon", "theme-porting", "header"],
+      "related_bugs": ["bug-001"],
+      "occurrences": 1,
+      "last_seen": "2026-08-08T00:00:00Z"
+    }
+  ]
 }

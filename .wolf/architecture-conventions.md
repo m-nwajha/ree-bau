@@ -21,6 +21,7 @@
 - The user has a ready-made React theme/template they want extended into this project. The template is **JSX**; this project is **TSX** — components must be ported/typed, not copy-pasted as-is.
 - The user will provide the **exact path(s)** of the components to extend, one at a time.
 - **Hard rule: only touch the exact `.local` template path given. Never explore or pull from other paths inside `.local` on your own.**
+- **Gotcha (learned 2026-08-08):** the theme also loads vendor CSS (Bootstrap, Font Awesome, Magnific Popup) via plain `<link>` tags in `pages/_document.js` — not through the SCSS partials. When porting any component that uses grid classes (`container`/`row`/`col-lg-*`) or icon fonts, check `_document.js`/`_app.js` for these links too, copy the referenced files from `public/css/` + `public/webfonts/` (or similar) into the project's `public/`, and add matching `<link rel="stylesheet">` tags to `src/app/layout.tsx`'s `<head>`. Skipping this makes ported markup look completely unstyled (no grid/spacing).
 
 ## 4. `views` structure (one folder per page)
 
@@ -101,6 +102,22 @@ export default function About() {
 
 - `src/types/` (imported as `@/types/...` via the existing `@/*` → `./src/*` path alias) holds **reusable/shared TypeScript types** — e.g. a `Service` type used by both the mock data in §5 and the views/components that render it, `GalerieItem`, `ContactInfo`, etc.
 - Types used by only one component stay local to that file; anything shared across ≥2 files (mocks ↔ views, multiple views, etc.) goes in `src/types/`.
+
+## 12. Reference pattern — MainLayout / Header (precedent from prior project `medjana`)
+
+When the user says "port the Header/Footer from the ready template," this is the **logic** to follow (styling/classnames are theme-specific and will differ — ignore those, follow the structure):
+
+**MainLayout** (root layout, Client Component — consistent with §7):
+- Wraps `{children}` in whatever context providers the template scripts need (e.g. a `ScriptsProvider` for third-party/analytics scripts).
+- Fixed render order: `ScrollToTopButton` → `Header` → `{children}` → `Footer` → `CookieConsent` → any floating widgets (e.g. a WhatsApp button).
+- All of those pieces (`Header`, `Footer`, `CookieConsent`, `ScrollToTopButton`, floating widgets) are components pulled from the shared/common folder (§8) and simply assembled here — `MainLayout` itself has no markup of its own beyond that order.
+
+**Header** (Client Component — needs `usePathname`):
+- Nav items come from **one typed constants file** (e.g. `@/constants/navbar-routes` exporting a `navbarRoutes` array + a `NavRoute` type) — the *same* data drives both the desktop and mobile menus, never duplicated. Per §11, if `NavRoute` is reused elsewhere it belongs in `src/types/`; the constants file just imports the type.
+- `NavRoute` supports an optional `subRoutes` list. The render branches per item: has `subRoutes` → render a dropdown; no `subRoutes` → render a plain `Link`.
+- Active-link state: a small helper (`activeClass(route)`) compares `usePathname()` to the route's `href` and conditionally applies an active class — don't hardcode active state per link.
+- Desktop nav and mobile nav are two separate markup blocks (typical when the source is a Webflow-style export) but both are driven by the same `navbarRoutes` array and reuse the same CTA button component (e.g. `ButtonSolid`) rather than each having its own copy.
+- Shared UI atoms (`Logo`, `ButtonSolid`/other buttons) come from `ui/` (§9) and accept template-specific pass-through props (e.g. a Webflow interaction id) as a normal prop rather than hardcoding them per usage site.
 
 ## Open / to be clarified as we go
 

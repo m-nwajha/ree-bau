@@ -1,0 +1,11 @@
+.nav-bar ul {
+  margin-bottom: 0;
+}
+
+.menu-item-has-children .sub-menu {
+  padding: 0;
+}
+
+.desktop-nav .nav-bar ul > li ul.sub-menu li:hover a {
+  color: #fff;
+}
