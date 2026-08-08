@@ -1,0 +1,189 @@
+{
+  "version": 1,
+  "created_at": "2026-08-08T11:51:58.553Z",
+  "lifetime": {
+    "total_tokens_estimated": 704,
+    "total_reads": 11,
+    "total_writes": 0,
+    "total_sessions": 1,
+    "anatomy_hits": 5,
+    "anatomy_misses": 6,
+    "repeated_reads_blocked": 0,
+    "estimated_savings_vs_bare_cli": 1000,
+    "real_input_tokens": 5844,
+    "real_output_tokens": 68904,
+    "real_cache_read_tokens": 4819336,
+    "real_cache_creation_tokens": 165574,
+    "real_api_calls": 84
+  },
+  "sessions": [
+    {
+      "id": "session-2026-08-08-1502",
+      "agent": "claude",
+      "started": "2026-08-08T12:02:21.194Z",
+      "ended": "2026-08-08T12:05:50.768Z",
+      "reads": [
+        {
+          "file": "d:/orionlens/ree-bau/.local/contant.md",
+          "tokens_estimated": 0,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "d:/orionlens/ree-bau/.gitignore",
+          "tokens_estimated": 128,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        }
+      ],
+      "writes": [],
+      "totals": {
+        "input_tokens_estimated": 128,
+        "output_tokens_estimated": 0,
+        "reads_count": 2,
+        "writes_count": 0,
+        "repeated_reads_blocked": 0,
+        "anatomy_lookups": 1
+      },
+      "real_usage": {
+        "input_tokens": 1439,
+        "output_tokens": 7076,
+        "cache_read_input_tokens": 477628,
+        "cache_creation_input_tokens": 28730,
+        "api_calls": 10
+      }
+    },
+    {
+      "id": "session-2026-08-08-1502",
+      "agent": "claude",
+      "started": "2026-08-08T12:02:21.194Z",
+      "ended": "2026-08-08T12:10:44.954Z",
+      "reads": [
+        {
+          "file": "d:/orionlens/ree-bau/.local/contant.md",
+          "tokens_estimated": 0,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "d:/orionlens/ree-bau/.gitignore",
+          "tokens_estimated": 128,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        }
+      ],
+      "writes": [],
+      "totals": {
+        "input_tokens_estimated": 128,
+        "output_tokens_estimated": 0,
+        "reads_count": 2,
+        "writes_count": 0,
+        "repeated_reads_blocked": 0,
+        "anatomy_lookups": 1
+      },
+      "real_usage": {
+        "input_tokens": 1453,
+        "output_tokens": 12927,
+        "cache_read_input_tokens": 895414,
+        "cache_creation_input_tokens": 36272,
+        "api_calls": 17
+      }
+    },
+    {
+      "id": "session-2026-08-08-1502",
+      "agent": "claude",
+      "started": "2026-08-08T12:02:21.194Z",
+      "ended": "2026-08-08T12:47:12.164Z",
+      "reads": [
+        {
+          "file": "d:/orionlens/ree-bau/.local/contant.md",
+          "tokens_estimated": 0,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "d:/orionlens/ree-bau/.gitignore",
+          "tokens_estimated": 128,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "d:/orionlens/ree-bau/.local/prompt.md",
+          "tokens_estimated": 0,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        }
+      ],
+      "writes": [],
+      "totals": {
+        "input_tokens_estimated": 128,
+        "output_tokens_estimated": 0,
+        "reads_count": 3,
+        "writes_count": 0,
+        "repeated_reads_blocked": 0,
+        "anatomy_lookups": 1
+      },
+      "real_usage": {
+        "input_tokens": 1469,
+        "output_tokens": 23007,
+        "cache_read_input_tokens": 1453021,
+        "cache_creation_input_tokens": 48207,
+        "api_calls": 25
+      }
+    },
+    {
+      "id": "session-2026-08-08-1502",
+      "agent": "claude",
+      "started": "2026-08-08T12:02:21.194Z",
+      "ended": "2026-08-08T12:49:31.781Z",
+      "reads": [
+        {
+          "file": "d:/orionlens/ree-bau/.local/contant.md",
+          "tokens_estimated": 0,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "d:/orionlens/ree-bau/.gitignore",
+          "tokens_estimated": 128,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "d:/orionlens/ree-bau/.local/prompt.md",
+          "tokens_estimated": 0,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "d:/orionlens/ree-bau/tsconfig.json",
+          "tokens_estimated": 192,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        }
+      ],
+      "writes": [],
+      "totals": {
+        "input_tokens_estimated": 320,
+        "output_tokens_estimated": 0,
+        "reads_count": 4,
+        "writes_count": 0,
+        "repeated_reads_blocked": 0,
+        "anatomy_lookups": 2
+      },
+      "real_usage": {
+        "input_tokens": 1483,
+        "output_tokens": 25894,
+        "cache_read_input_tokens": 1993273,
+        "cache_creation_input_tokens": 52365,
+        "api_calls": 32
+      }
+    }
+  ],
+  "daemon_usage": [],
+  "waste_flags": [],
+  "optimization_report": {
+    "last_generated": null,
+    "patterns": []
+  }
+}

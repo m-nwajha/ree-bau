@@ -1,0 +1,202 @@
+{
+  "version": 1,
+  "meta": {
+    "lastScanned": "2026-08-08T11:51:59.824Z",
+    "fileCount": 20,
+    "hits": 0,
+    "misses": 0,
+    "renderedHash": "ad92757d184acd66a3247992171830a1bc27ac7d904c52ab90b685f387f203e3",
+    "storeUpdatedAt": "2026-08-08T11:51:59.826Z"
+  },
+  "files": {
+    ".claude/commands/reframe.md": {
+      "description": "Mode: migrate [framework]",
+      "tokens": 551,
+      "hash": "17a75695be5d4629",
+      "size": 2221,
+      "mtimeMs": 1786189919691.181,
+      "updatedAt": "2026-08-08T11:51:59.734Z",
+      "source": "scan"
+    },
+    ".claude/commands/security-audit.md": {
+      "description": "Layer 1 — Dependencies",
+      "tokens": 510,
+      "hash": "e6f7e0b7337c9c86",
+      "size": 2060,
+      "mtimeMs": 1786189919687.186,
+      "updatedAt": "2026-08-08T11:51:59.740Z",
+      "source": "scan"
+    },
+    ".claude/rules/openwolf.md": {
+      "description": "",
+      "tokens": 328,
+      "hash": "6d735b2c1c54a916",
+      "size": 1323,
+      "mtimeMs": 1786189918869.3784,
+      "updatedAt": "2026-08-08T11:51:59.746Z",
+      "source": "scan"
+    },
+    ".claude/settings.json": {
+      "description": "",
+      "tokens": 514,
+      "hash": "f68759bb50af5ee4",
+      "size": 1799,
+      "mtimeMs": 1786189918865.3755,
+      "updatedAt": "2026-08-08T11:51:59.778Z",
+      "source": "scan"
+    },
+    ".gitignore": {
+      "description": "Git ignore rules",
+      "tokens": 128,
+      "hash": "207e265ff4901f9a",
+      "size": 480,
+      "mtimeMs": 1776857636374.0713,
+      "updatedAt": "2026-08-08T11:51:59.779Z",
+      "source": "scan"
+    },
+    "AGENTS.md": {
+      "description": "This is NOT the Next.js you know",
+      "tokens": 169,
+      "hash": "63f2c50380ed6303",
+      "size": 678,
+      "mtimeMs": 1786180324398.9119,
+      "updatedAt": "2026-08-08T11:51:59.782Z",
+      "source": "scan"
+    },
+    "CLAUDE.md": {
+      "description": "OpenWolf",
+      "tokens": 60,
+      "hash": "dc7af420506c1e1f",
+      "size": 238,
+      "mtimeMs": 1786189918873.5645,
+      "updatedAt": "2026-08-08T11:51:59.785Z",
+      "source": "scan"
+    },
+    "eslint.config.mjs": {
+      "description": "ESLint flat configuration",
+      "tokens": 124,
+      "hash": "870f1adccecf3051",
+      "size": 465,
+      "mtimeMs": 1776857636491.106,
+      "updatedAt": "2026-08-08T11:51:59.785Z",
+      "source": "scan"
+    },
+    "GEMINI.md": {
+      "description": "OpenWolf",
+      "tokens": 68,
+      "hash": "8c90778623bf50ac",
+      "size": 271,
+      "mtimeMs": 1786189919680.1794,
+      "updatedAt": "2026-08-08T11:51:59.789Z",
+      "source": "scan"
+    },
+    "next-env.d.ts": {
+      "description": "/ <reference types=\"next\" />",
+      "tokens": 83,
+      "hash": "1862ac4bbbc5192d",
+      "size": 288,
+      "mtimeMs": 1786180324294.9116,
+      "updatedAt": "2026-08-08T11:51:59.791Z",
+      "source": "scan"
+    },
+    "next.config.ts": {
+      "description": "Next.js configuration",
+      "tokens": 45,
+      "hash": "58d7f0d9ff632e87",
+      "size": 156,
+      "mtimeMs": 1786180206843.185,
+      "updatedAt": "2026-08-08T11:51:59.791Z",
+      "source": "scan"
+    },
+    "package.json": {
+      "description": "Node.js package manifest",
+      "tokens": 158,
+      "hash": "068e38cc650c29e2",
+      "size": 551,
+      "mtimeMs": 1786180206851.1855,
+      "updatedAt": "2026-08-08T11:51:59.792Z",
+      "source": "scan"
+    },
+    "pnpm-lock.yaml": {
+      "description": "pnpm lock file",
+      "tokens": 36255,
+      "hash": "5c0d93207affef58",
+      "size": 126892,
+      "mtimeMs": 1786180314298.4768,
+      "updatedAt": "2026-08-08T11:51:59.795Z",
+      "source": "scan"
+    },
+    "pnpm-workspace.yaml": {
+      "description": "",
+      "tokens": 17,
+      "hash": "3ff85564ea77ba0e",
+      "size": 57,
+      "mtimeMs": 1786180206850.184,
+      "updatedAt": "2026-08-08T11:51:59.798Z",
+      "source": "scan"
+    },
+    "README.md": {
+      "description": "Project documentation",
+      "tokens": 363,
+      "hash": "60b55ff7df79af72",
+      "size": 1450,
+      "mtimeMs": 1776857636474.2546,
+      "updatedAt": "2026-08-08T11:51:59.801Z",
+      "source": "scan"
+    },
+    "src/app/globals.css": {
+      "description": "Styles: 2 rules, 4 vars, 2 media queries",
+      "tokens": 200,
+      "hash": "e1c0289930d17ef1",
+      "size": 697,
+      "mtimeMs": 1776857636386.963,
+      "updatedAt": "2026-08-08T11:51:59.803Z",
+      "source": "scan"
+    },
+    "src/app/layout.tsx": {
+      "description": "geistSans",
+      "tokens": 177,
+      "hash": "4e6acf1341f8d9c2",
+      "size": 617,
+      "mtimeMs": 1786009094002.1868,
+      "updatedAt": "2026-08-08T11:51:59.805Z",
+      "source": "scan"
+    },
+    "src/app/page.module.css": {
+      "description": "Styles: 12 rules, 14 vars, 3 media queries",
+      "tokens": 747,
+      "hash": "165ea66bc56f2793",
+      "size": 2612,
+      "mtimeMs": 1786009093519.6838,
+      "updatedAt": "2026-08-08T11:51:59.807Z",
+      "source": "scan"
+    },
+    "src/app/page.tsx": {
+      "description": "Home",
+      "tokens": 616,
+      "hash": "8b6f29326d0989b4",
+      "size": 2154,
+      "mtimeMs": 1786180206848.1833,
+      "updatedAt": "2026-08-08T11:51:59.810Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "Home",
+          "kind": "fn",
+          "startLine": 4,
+          "endLine": 70,
+          "tokens": 595
+        }
+      ]
+    },
+    "tsconfig.json": {
+      "description": "TypeScript configuration",
+      "tokens": 192,
+      "hash": "5c51df4c59f4510d",
+      "size": 670,
+      "mtimeMs": 1786180206845.1838,
+      "updatedAt": "2026-08-08T11:51:59.811Z",
+      "source": "scan"
+    }
+  }
+}
