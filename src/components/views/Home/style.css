@@ -1,0 +1,88 @@
+.service-style-one .service-data .svg-icon i {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+  font-size: 42px;
+  color: #e65e24;
+}
+
+.service-style-one .service-data:hover .svg-icon i {
+  color: #fff;
+}
+
+.service-style-one .service-data:hover:before {
+  background-color: #ffe4b3;
+}
+
+.service-style-two .service-two-box .service-two-icon i.service-main-icon {
+  position: static;
+  opacity: 1;
+  visibility: visible;
+  transform: none;
+  font-size: 36px;
+  color: #e65e24;
+}
+
+.service-style-two .row {
+  align-items: stretch;
+}
+
+.service-style-two .service-two-box {
+  height: 100%;
+}
+
+.service-two-box h3,
+.service-two-box span i {
+  color: #000;
+}
+
+.service-two-box:hover p {
+  color: #fff;
+}
+
+.project-style-one .project-post .project-data h3 a {
+  font-size: 1.2rem;
+}
+
+/* The theme gives .service-style-two a black background in dark mode
+   (body.light-d) but never repaints the title/CTA link colors for that
+   state, so they stay black-on-black. */
+body.light-d .service-style-two .service-two-box h3 a,
+body.light-d .service-style-two .service-two-box.last a,
+body.light-d .service-style-two .service-two-box h3 {
+  color: #fff;
+}
+
+body.light-d .service-style-two .service-two-box:hover:before {
+  z-index: 1;
+}
+
+body.light-d .service-style-two .service-two-box:hover h3,
+body.light-d .service-style-two .service-two-box:hover p {
+  z-index: 2;
+  position: sticky;
+}
+
+.contact-form-one .c-form-2 form label {
+  display: block;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #fff;
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+
+.contact-form-one .c-form-2 form .col-md-6 {
+  margin-bottom: 20px;
+}
+
+.contact-form-one .c-form-2 form input,
+.contact-form-one .c-form-2 form textarea,
+.contact-form-one .c-form-2 form select {
+  box-shadow: none !important;
+}

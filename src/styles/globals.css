@@ -13,6 +13,9 @@ a:active {
   color: inherit;
 }
 
+p {
+  margin-bottom: 0 !important;
+}
 
 ul {
   list-style: none;

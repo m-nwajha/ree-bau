@@ -17,6 +17,13 @@ const Header = () => {
   const [themeUI, setThemeUI] = useLocalStorage("theme_ui", false);
   const [desktopMenu, setDesktopMenu] = useState(false);
   const [mobileMenu, setMobileMenu] = useState(false);
+  const [isSticky, setIsSticky] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => setIsSticky(window.scrollY > 80);
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   const clickedDesktopMenu = (e: React.MouseEvent) => {
     e.preventDefault();
@@ -67,7 +74,10 @@ const Header = () => {
     <header className="header-style-one">
       <div className="container">
         <div className="row">
-          <div className="desktop-nav" id="stickyHeader">
+          <div
+            className={`desktop-nav${isSticky ? " is-sticky" : ""}`}
+            id="stickyHeader"
+          >
             <div className="container">
               <div className="row">
                 <div className="col-lg-12">
