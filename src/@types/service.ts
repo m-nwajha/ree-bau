@@ -4,4 +4,6 @@ export type Service = {
   text: string;
   icon: string;
   link: string;
+  image: string;
+  checklist: string[];
 };

@@ -14,7 +14,7 @@ const HomePage = () => {
       <Hero />
       <About />
       <WhyUs />
-      <Services data={services} />
+      <Services isHome={true} data={services} />
       <Gallery data={gallery} />
       <HowWeWork />
       <ContactFaq />

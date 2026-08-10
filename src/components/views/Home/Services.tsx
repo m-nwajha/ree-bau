@@ -2,8 +2,8 @@ import Link from "next/link";
 import type { Service } from "@/@types/service";
 import "./style.css";
 
-const Services = ({ data }: { data: Service[] }) => {
-  const visibleItems = data.slice(-5);
+const Services = ({ data, isHome  }: { data: Service[]; isHome?: boolean }) => {
+  const visibleItems = isHome ? data.slice(-5) : data;
 
   return (
     <section className="service-style-two">
@@ -33,16 +33,18 @@ const Services = ({ data }: { data: Service[] }) => {
             </div>
           ))}
 
-          <div className="col-lg-4 col-md-6 col-sm-12">
-            <div className="service-two-box last d-flex-all">
-              <Link href="/services">
-                Alle Services ansehen
-                <span className="d-flex-all d-inline-flex">
-                  <i className="fa-solid fa-angles-right" />
-                </span>
-              </Link>
+          {isHome && (
+            <div className="col-lg-4 col-md-6 col-sm-12">
+              <div className="service-two-box last d-flex-all">
+                <Link href="/services">
+                  Alle Services ansehen
+                  <span className="d-flex-all d-inline-flex">
+                    <i className="fa-solid fa-angles-right" />
+                  </span>
+                </Link>
+              </div>
             </div>
-          </div>
+          )}
         </div>
       </div>
     </section>

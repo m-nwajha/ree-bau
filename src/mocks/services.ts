@@ -7,6 +7,14 @@ export const services: Service[] = [
     text: "REEBAU unterstützt Kunden beim Innenausbau mit praxisorientierter und sorgfältiger Handwerksarbeit.",
     icon: "fa-solid fa-house-chimney-window",
     link: "/services/innenausbau",
+    image: "/images/image-320x514.jpg",
+    checklist: [
+      "Anpassung von Räumen",
+      "Einfache Konstruktionen",
+      "Gestaltung funktionaler Wohnbereiche",
+      "Gestaltung von Arbeitsbereichen",
+      "Saubere und zuverlässige Ausführung",
+    ],
   },
   {
     slug: "raumausstattung",
@@ -14,6 +22,13 @@ export const services: Service[] = [
     text: "Räume werden sowohl optisch als auch funktional gestaltet – individuell nach Kundenwunsch.",
     icon: "fa-solid fa-couch",
     link: "/services/raumausstattung",
+    image: "/images/image-455x455.jpg",
+    checklist: [
+      "Renovierungen",
+      "Kleinere Anpassungen",
+      "Neue gestalterische Akzente",
+      "Individuelle Lösungen entsprechend den Kundenwünschen",
+    ],
   },
   {
     slug: "trockenbau",
@@ -21,6 +36,16 @@ export const services: Service[] = [
     text: "Montage von nichttragenden Wänden, Decken und Verkleidungen mit hoher Präzision.",
     icon: "fa-solid fa-border-all",
     link: "/services/trockenbau",
+    image: "/images/image%20(1).jpg",
+    checklist: [
+      "Montage von nichttragenden Wänden",
+      "Montage von Decken",
+      "Montage von Verkleidungen",
+      "Präzises Zuschneiden",
+      "Sichere Befestigung",
+      "Saubere Verarbeitung",
+      "Optimale Raumstrukturierung",
+    ],
   },
   {
     slug: "malerarbeiten",
@@ -28,6 +53,14 @@ export const services: Service[] = [
     text: "Maler- und Grundierarbeiten für Innenräume, sauber und fachgerecht ausgeführt.",
     icon: "fa-solid fa-paint-roller",
     link: "/services/malerarbeiten",
+    image: "/images/image-480x640.jpg",
+    checklist: [
+      "Streichen von Wänden",
+      "Streichen von Decken",
+      "Auffrischung von Wohnräumen",
+      "Vorbereitung von Oberflächen",
+      "Saubere und fachgerechte Ausführung",
+    ],
   },
   {
     slug: "bodenverlegung",
@@ -35,5 +68,13 @@ export const services: Service[] = [
     text: "Verlegung von Laminat, Vinyl und Fertigparkett nach Herstellervorgaben.",
     icon: "fa-solid fa-layer-group",
     link: "/services/bodenverlegung",
+    image: "/images/image-320x240%20(1).jpg",
+    checklist: [
+      "Laminat",
+      "Vinyl",
+      "Fertigparkett",
+      "Geeignete Vorbereitung des Untergrunds",
+      "Präzise Verarbeitung",
+    ],
   },
 ];

@@ -26,3 +26,21 @@ ul {
 button {
   cursor: pointer;
 }
+
+form input,
+form textarea,
+form select,
+form input:focus,
+form textarea:focus,
+form select:focus,
+form input:active,
+form textarea:active,
+form select:active {
+  box-shadow: none !important;
+}
+
+form input:focus,
+form textarea:focus,
+form select:focus {
+  border-color: #e65e24 !important;
+}

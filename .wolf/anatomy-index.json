@@ -1,12 +1,12 @@
 {
   "version": 1,
   "meta": {
-    "lastScanned": "2026-08-08T11:51:59.824Z",
-    "fileCount": 20,
+    "lastScanned": "2026-08-10T09:03:03.978Z",
+    "fileCount": 252,
     "hits": 0,
     "misses": 0,
-    "renderedHash": "ad92757d184acd66a3247992171830a1bc27ac7d904c52ab90b685f387f203e3",
-    "storeUpdatedAt": "2026-08-08T11:51:59.826Z"
+    "renderedHash": "43aa617ebdf97c75866ad445822b4a9c4b41268b595f221686b4d3fda4296dad",
+    "storeUpdatedAt": "2026-08-10T09:03:03.985Z"
   },
   "files": {
     ".claude/commands/reframe.md": {
@@ -15,7 +15,7 @@
       "hash": "17a75695be5d4629",
       "size": 2221,
       "mtimeMs": 1786189919691.181,
-      "updatedAt": "2026-08-08T11:51:59.734Z",
+      "updatedAt": "2026-08-10T09:03:01.791Z",
       "source": "scan"
     },
     ".claude/commands/security-audit.md": {
@@ -24,7 +24,7 @@
       "hash": "e6f7e0b7337c9c86",
       "size": 2060,
       "mtimeMs": 1786189919687.186,
-      "updatedAt": "2026-08-08T11:51:59.740Z",
+      "updatedAt": "2026-08-10T09:03:01.792Z",
       "source": "scan"
     },
     ".claude/rules/openwolf.md": {
@@ -33,7 +33,7 @@
       "hash": "6d735b2c1c54a916",
       "size": 1323,
       "mtimeMs": 1786189918869.3784,
-      "updatedAt": "2026-08-08T11:51:59.746Z",
+      "updatedAt": "2026-08-10T09:03:01.797Z",
       "source": "scan"
     },
     ".claude/settings.json": {
@@ -42,16 +42,2210 @@
       "hash": "f68759bb50af5ee4",
       "size": 1799,
       "mtimeMs": 1786189918865.3755,
-      "updatedAt": "2026-08-08T11:51:59.778Z",
+      "updatedAt": "2026-08-10T09:03:01.799Z",
       "source": "scan"
     },
     ".gitignore": {
       "description": "Git ignore rules",
-      "tokens": 128,
-      "hash": "207e265ff4901f9a",
-      "size": 480,
-      "mtimeMs": 1776857636374.0713,
-      "updatedAt": "2026-08-08T11:51:59.779Z",
+      "tokens": 133,
+      "hash": "db1070a88c38d7f5",
+      "size": 497,
+      "mtimeMs": 1786190481275.1682,
+      "updatedAt": "2026-08-10T09:03:01.800Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/jsconfig.json": {
+      "description": "",
+      "tokens": 82,
+      "hash": "ff50adb272a3c1e1",
+      "size": 285,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:01.801Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/next.config.js": {
+      "description": "Next.js configuration",
+      "tokens": 36,
+      "hash": "5b9a805e70fcae6e",
+      "size": 123,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:01.803Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/package.json": {
+      "description": "Node.js package manifest",
+      "tokens": 170,
+      "hash": "9595cf8fe5f80b17",
+      "size": 595,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:01.804Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/public/css/bootstrap.min.css.map": {
+      "description": "",
+      "tokens": 115010,
+      "hash": "cff735af3cee47a5",
+      "size": 431289,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:01.825Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/public/css/magnific-popup.css": {
+      "description": "Remove all paddings around the image on small screen",
+      "tokens": 2194,
+      "hash": "7554dbf7a3e5001f",
+      "size": 7676,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:01.826Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/public/favicon/browserconfig.xml": {
+      "description": "",
+      "tokens": 81,
+      "hash": "13bc647273455808",
+      "size": 281,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:01.834Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/public/favicon/manifest.json": {
+      "description": "",
+      "tokens": 206,
+      "hash": "27eca3e8297eb7ff",
+      "size": 720,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:01.838Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/public/videos/video.txt": {
+      "description": "",
+      "tokens": 15,
+      "hash": "251b22aa90205e00",
+      "size": 58,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:01.856Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/common/counters.js": {
+      "description": "Exports countersAnimation",
+      "tokens": 223,
+      "hash": "8dab0bf1bea577b9",
+      "size": 779,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:01.863Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/common/scrollAnims.js": {
+      "description": "Exports scrollAnimation",
+      "tokens": 465,
+      "hash": "a01eb36804a373ac",
+      "size": 1627,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:01.865Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/common/sliderProps.js": {
+      "description": "Exports sliderProps",
+      "tokens": 942,
+      "hash": "5c947c652afa217c",
+      "size": 3297,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:01.868Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/common/useClickOutside.js": {
+      "description": "",
+      "tokens": 139,
+      "hash": "19b38b04c2506333",
+      "size": 484,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:01.870Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/common/useLocalStorage.js": {
+      "description": "Exports useLocalStorage",
+      "tokens": 174,
+      "hash": "5629646ecc0d147d",
+      "size": 606,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:01.870Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/common/utilits.js": {
+      "description": "What we build",
+      "tokens": 866,
+      "hash": "d3d9f8ee97ebbb17",
+      "size": 3031,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:01.872Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "projectsListHover",
+          "kind": "fn",
+          "startLine": 2,
+          "endLine": 15,
+          "tokens": 105
+        },
+        {
+          "name": "estimatedFormSteps",
+          "kind": "fn",
+          "startLine": 16,
+          "endLine": 44,
+          "tokens": 276
+        },
+        {
+          "name": "contactUsNavigation",
+          "kind": "fn",
+          "startLine": 45,
+          "endLine": 92,
+          "tokens": 455
+        }
+      ]
+    },
+    ".local/builty-react (1)/builty/src/components/ImageView.jsx": {
+      "description": "ImgViews — uses useState, useEffect",
+      "tokens": 475,
+      "hash": "5a6254810980e6e9",
+      "size": 1661,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:01.877Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/components/PageBanner.jsx": {
+      "description": "PageBanner",
+      "tokens": 383,
+      "hash": "ace01a3cde65aed6",
+      "size": 1338,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:01.880Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/components/PaginatedBlog.jsx": {
+      "description": "PaginationPage",
+      "tokens": 428,
+      "hash": "04c1bd9573e102bc",
+      "size": 1497,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:01.881Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/components/Pagination.jsx": {
+      "description": "dotts",
+      "tokens": 616,
+      "hash": "a2be8d2b7c1365e0",
+      "size": 2155,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:01.882Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "Pagination",
+          "kind": "fn",
+          "startLine": 6,
+          "endLine": 51,
+          "tokens": 584
+        }
+      ]
+    },
+    ".local/builty-react (1)/builty/src/components/RelatedProjects.jsx": {
+      "description": "RelatedProjects",
+      "tokens": 370,
+      "hash": "4d472acf78153973",
+      "size": 1292,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:01.884Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/components/sections/About.jsx": {
+      "description": "AboutSection",
+      "tokens": 398,
+      "hash": "bfb8017e5ae1f670",
+      "size": 1393,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:01.887Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/components/sections/About2.jsx": {
+      "description": "About2Section",
+      "tokens": 798,
+      "hash": "81e2a68f5cb0972e",
+      "size": 2793,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:01.892Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "About2Section",
+          "kind": "fn",
+          "startLine": 3,
+          "endLine": 52,
+          "tokens": 784
+        }
+      ]
+    },
+    ".local/builty-react (1)/builty/src/components/sections/About3.jsx": {
+      "description": "About3Section",
+      "tokens": 691,
+      "hash": "870a40ac9ecacb72",
+      "size": 2416,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:01.893Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "About3Section",
+          "kind": "fn",
+          "startLine": 4,
+          "endLine": 36,
+          "tokens": 668
+        }
+      ]
+    },
+    ".local/builty-react (1)/builty/src/components/sections/CallToAction.jsx": {
+      "description": "CallToActionSection",
+      "tokens": 316,
+      "hash": "29f3a64d842f5d17",
+      "size": 1105,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:01.896Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/components/sections/ContactForm.jsx": {
+      "description": "ContactFormSection — renders form",
+      "tokens": 2313,
+      "hash": "c28602b016c2ba8a",
+      "size": 8095,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:01.901Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "ContactFormSection",
+          "kind": "fn",
+          "startLine": 6,
+          "endLine": 186,
+          "tokens": 2263
+        }
+      ]
+    },
+    ".local/builty-react (1)/builty/src/components/sections/ContactForm2.jsx": {
+      "description": "ContactForm2Section — renders form",
+      "tokens": 2052,
+      "hash": "ec9e43916d7ae39d",
+      "size": 7179,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:01.903Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "ContactForm2Section",
+          "kind": "fn",
+          "startLine": 5,
+          "endLine": 160,
+          "tokens": 2015
+        }
+      ]
+    },
+    ".local/builty-react (1)/builty/src/components/sections/ContactUs.jsx": {
+      "description": "ContactUsSection — uses useEffect",
+      "tokens": 667,
+      "hash": "d455943e0a62a0fb",
+      "size": 2333,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:01.906Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "ContactUsSection",
+          "kind": "fn",
+          "startLine": 5,
+          "endLine": 68,
+          "tokens": 626
+        }
+      ]
+    },
+    ".local/builty-react (1)/builty/src/components/sections/Counters.jsx": {
+      "description": "CountersSection",
+      "tokens": 294,
+      "hash": "ebbf9906a76b2cce",
+      "size": 1026,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:01.912Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/components/sections/EstimatedPrice.jsx": {
+      "description": "EstimatedPriceSection — renders form — uses useEffect",
+      "tokens": 3828,
+      "hash": "a668deb2078e4ce5",
+      "size": 13396,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:01.914Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "EstimatedPriceSection",
+          "kind": "fn",
+          "startLine": 7,
+          "endLine": 266,
+          "tokens": 3764
+        }
+      ]
+    },
+    ".local/builty-react (1)/builty/src/components/sections/Features.jsx": {
+      "description": "FeaturesSection — renders modal — uses useState",
+      "tokens": 846,
+      "hash": "8d43e811c20196e5",
+      "size": 2960,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:01.916Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "FeaturesSection",
+          "kind": "fn",
+          "startLine": 7,
+          "endLine": 64,
+          "tokens": 781
+        }
+      ]
+    },
+    ".local/builty-react (1)/builty/src/components/sections/Hero3.jsx": {
+      "description": "Hero3Section",
+      "tokens": 554,
+      "hash": "d84124f6982ded5d",
+      "size": 1939,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:01.917Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "Hero3Section",
+          "kind": "fn",
+          "startLine": 3,
+          "endLine": 55,
+          "tokens": 541
+        }
+      ]
+    },
+    ".local/builty-react (1)/builty/src/components/sections/LatestPosts.jsx": {
+      "description": "LatestPostsSection",
+      "tokens": 769,
+      "hash": "c84dfc16b1ac1169",
+      "size": 2690,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:01.920Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "LatestPostsSection",
+          "kind": "fn",
+          "startLine": 5,
+          "endLine": 58,
+          "tokens": 735
+        }
+      ]
+    },
+    ".local/builty-react (1)/builty/src/components/sections/LatestPosts2.jsx": {
+      "description": "LatestPosts2Section",
+      "tokens": 555,
+      "hash": "f74a52155335adb5",
+      "size": 1941,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:01.922Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "LatestPosts2Section",
+          "kind": "fn",
+          "startLine": 5,
+          "endLine": 48,
+          "tokens": 521
+        }
+      ]
+    },
+    ".local/builty-react (1)/builty/src/components/sections/Locations.jsx": {
+      "description": "LocationsSection",
+      "tokens": 893,
+      "hash": "7150f5bf76e1b870",
+      "size": 3124,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:01.925Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "LocationsSection",
+          "kind": "fn",
+          "startLine": 5,
+          "endLine": 82,
+          "tokens": 856
+        }
+      ]
+    },
+    ".local/builty-react (1)/builty/src/components/sections/Owners.jsx": {
+      "description": "OwnersSection",
+      "tokens": 791,
+      "hash": "a0b1cd825736d45c",
+      "size": 2768,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:01.927Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "OwnersSection",
+          "kind": "fn",
+          "startLine": 4,
+          "endLine": 61,
+          "tokens": 769
+        }
+      ]
+    },
+    ".local/builty-react (1)/builty/src/components/sections/Pricing.jsx": {
+      "description": "PricingSection",
+      "tokens": 548,
+      "hash": "71b0f41d29cb9a49",
+      "size": 1918,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:01.928Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "PricingSection",
+          "kind": "fn",
+          "startLine": 4,
+          "endLine": 56,
+          "tokens": 526
+        }
+      ]
+    },
+    ".local/builty-react (1)/builty/src/components/sections/ProjectsList.jsx": {
+      "description": "ProjectsListSection — uses useEffect",
+      "tokens": 555,
+      "hash": "dfbc30b7517aeea8",
+      "size": 1941,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:01.931Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "ProjectsListSection",
+          "kind": "fn",
+          "startLine": 6,
+          "endLine": 52,
+          "tokens": 506
+        }
+      ]
+    },
+    ".local/builty-react (1)/builty/src/components/sections/Renovation.jsx": {
+      "description": "RenovationSection",
+      "tokens": 312,
+      "hash": "27f79a5fc1a7b00d",
+      "size": 1091,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:01.932Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/components/sections/Services.jsx": {
+      "description": "ServicesSection",
+      "tokens": 307,
+      "hash": "67b9248c1857df99",
+      "size": 1072,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:01.933Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/components/sections/Services2.jsx": {
+      "description": "Services2Section",
+      "tokens": 480,
+      "hash": "caccd7d74b6f7162",
+      "size": 1677,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:01.935Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/components/sliders/Certificates.jsx": {
+      "description": "CertificatesSlider",
+      "tokens": 726,
+      "hash": "3149886ef369f67f",
+      "size": 2540,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:01.938Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "CertificatesSlider",
+          "kind": "fn",
+          "startLine": 6,
+          "endLine": 67,
+          "tokens": 683
+        }
+      ]
+    },
+    ".local/builty-react (1)/builty/src/components/sliders/Hero.jsx": {
+      "description": "HeroSlider",
+      "tokens": 464,
+      "hash": "08639397ba42e687",
+      "size": 1624,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:01.939Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/components/sliders/Hero2.jsx": {
+      "description": "Hero2Slider",
+      "tokens": 489,
+      "hash": "d213398cf7088822",
+      "size": 1711,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:01.944Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/components/sliders/LatestPosts.jsx": {
+      "description": "LatestPostsSlider",
+      "tokens": 489,
+      "hash": "51a700cd193113a5",
+      "size": 1710,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:01.946Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/components/sliders/Partners.jsx": {
+      "description": "PartnersSlider",
+      "tokens": 263,
+      "hash": "c706c15088eb8ce4",
+      "size": 918,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:01.947Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/components/sliders/Products.jsx": {
+      "description": "ProductsSlider",
+      "tokens": 523,
+      "hash": "3d0bf57d17d328a1",
+      "size": 1830,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:01.949Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "ProductsSlider",
+          "kind": "fn",
+          "startLine": 6,
+          "endLine": 47,
+          "tokens": 471
+        }
+      ]
+    },
+    ".local/builty-react (1)/builty/src/components/sliders/Projects.jsx": {
+      "description": "ProjectsSlider",
+      "tokens": 515,
+      "hash": "e1faf795e0d82798",
+      "size": 1800,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:01.950Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "ProjectsSlider",
+          "kind": "fn",
+          "startLine": 6,
+          "endLine": 45,
+          "tokens": 463
+        }
+      ]
+    },
+    ".local/builty-react (1)/builty/src/components/sliders/Projects2.jsx": {
+      "description": "Projects2Slider",
+      "tokens": 826,
+      "hash": "e2c3b5db607b15a8",
+      "size": 2890,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:01.952Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "Projects2Slider",
+          "kind": "fn",
+          "startLine": 6,
+          "endLine": 67,
+          "tokens": 774
+        }
+      ]
+    },
+    ".local/builty-react (1)/builty/src/components/sliders/Team.jsx": {
+      "description": "TeamSlider",
+      "tokens": 796,
+      "hash": "920d7870e614d52d",
+      "size": 2783,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:01.954Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "TeamSlider",
+          "kind": "fn",
+          "startLine": 6,
+          "endLine": 64,
+          "tokens": 754
+        }
+      ]
+    },
+    ".local/builty-react (1)/builty/src/components/sliders/Testimonial.jsx": {
+      "description": "TestimonialSlider",
+      "tokens": 732,
+      "hash": "94121f3ccbeba7a6",
+      "size": 2561,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:01.956Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "TestimonialSlider",
+          "kind": "fn",
+          "startLine": 6,
+          "endLine": 50,
+          "tokens": 675
+        }
+      ]
+    },
+    ".local/builty-react (1)/builty/src/data/app.json": {
+      "description": "",
+      "tokens": 1982,
+      "hash": "128bee6f4f3916ee",
+      "size": 6936,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:01.963Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/data/posts/10-content-proof-tips-to-catch-goofs-2.md": {
+      "description": "",
+      "tokens": 574,
+      "hash": "3a9222b1760cef0d",
+      "size": 2293,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:01.968Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/data/posts/10-content-proof-tips-to-catch-goofs-3.md": {
+      "description": "",
+      "tokens": 574,
+      "hash": "2b8d17d7ef563875",
+      "size": 2293,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:01.972Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/data/posts/10-content-proof-tips-to-catch-goofs-4.md": {
+      "description": "",
+      "tokens": 574,
+      "hash": "574aa2210b0d1254",
+      "size": 2293,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:01.984Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/data/posts/10-content-proof-tips-to-catch-goofs.md": {
+      "description": "preview",
+      "tokens": 576,
+      "hash": "c7b9243cf157d882",
+      "size": 2303,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:01.989Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/data/posts/5-steps-to-create-marketing-plan-2.md": {
+      "description": "",
+      "tokens": 771,
+      "hash": "f1d0b2412166cb33",
+      "size": 3090,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:01.997Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/data/posts/5-steps-to-create-marketing-plan-3.md": {
+      "description": "",
+      "tokens": 771,
+      "hash": "39c3e6e769e67340",
+      "size": 3090,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.002Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/data/posts/5-steps-to-create-marketing-plan-4.md": {
+      "description": "",
+      "tokens": 771,
+      "hash": "bfb221ddf7025953",
+      "size": 3090,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.010Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/data/posts/5-steps-to-create-marketing-plan.md": {
+      "description": "preview",
+      "tokens": 774,
+      "hash": "95e80d33f8fdd9c2",
+      "size": 3100,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.017Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/data/posts/play-to-your-strength-and-supercharge-your-business-2.md": {
+      "description": "",
+      "tokens": 754,
+      "hash": "148bced83bd2e85a",
+      "size": 3021,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.024Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/data/posts/play-to-your-strength-and-supercharge-your-business-3.md": {
+      "description": "",
+      "tokens": 754,
+      "hash": "e8724653b45cf257",
+      "size": 3021,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.031Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/data/posts/play-to-your-strength-and-supercharge-your-business-4.md": {
+      "description": "",
+      "tokens": 754,
+      "hash": "ee76f90e74aa6d04",
+      "size": 3021,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.037Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/data/posts/play-to-your-strength-and-supercharge-your-business.md": {
+      "description": "",
+      "tokens": 754,
+      "hash": "c6c2c68993f5ba78",
+      "size": 3021,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.045Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/data/projects/project-01.md": {
+      "description": "preview",
+      "tokens": 495,
+      "hash": "cb0a0812b91d95f4",
+      "size": 1982,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.054Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/data/projects/project-02.md": {
+      "description": "preview",
+      "tokens": 494,
+      "hash": "3d7ff2f4e2d35f95",
+      "size": 1978,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.063Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/data/projects/project-03.md": {
+      "description": "preview",
+      "tokens": 492,
+      "hash": "96ed46b195c10aca",
+      "size": 1970,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.069Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/data/projects/project-04.md": {
+      "description": "preview",
+      "tokens": 492,
+      "hash": "9055dbdcff9a73a6",
+      "size": 1967,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.074Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/data/projects/project-05.md": {
+      "description": "preview",
+      "tokens": 491,
+      "hash": "fbb059aed6eb2a31",
+      "size": 1964,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.080Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/data/projects/project-06.md": {
+      "description": "preview",
+      "tokens": 492,
+      "hash": "25463840f580e28e",
+      "size": 1967,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.085Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/data/projects/project-07.md": {
+      "description": "preview",
+      "tokens": 493,
+      "hash": "3825cfe483ea3a20",
+      "size": 1973,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.094Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/data/projects/project-08.md": {
+      "description": "preview",
+      "tokens": 491,
+      "hash": "cd56ba155eaf808e",
+      "size": 1965,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.098Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/data/projects/project-09.md": {
+      "description": "preview",
+      "tokens": 492,
+      "hash": "d435799f8b0a2606",
+      "size": 1969,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.101Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/data/projects/project-10.md": {
+      "description": "preview",
+      "tokens": 492,
+      "hash": "fcf5fecab6920d18",
+      "size": 1969,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.105Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/data/sections/about-2.json": {
+      "description": "",
+      "tokens": 282,
+      "hash": "a96b03622c7bec66",
+      "size": 986,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.114Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/data/sections/about-3.json": {
+      "description": "",
+      "tokens": 346,
+      "hash": "5680653fffcf1360",
+      "size": 1208,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.117Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/data/sections/about.json": {
+      "description": "",
+      "tokens": 228,
+      "hash": "c0cbc4aa9b6c69b2",
+      "size": 798,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.120Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/data/sections/call-to-action.json": {
+      "description": "",
+      "tokens": 105,
+      "hash": "465f2948387525bc",
+      "size": 370,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.124Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/data/sections/contact-form-2.json": {
+      "description": "",
+      "tokens": 12,
+      "hash": "587c95bc7f266dc4",
+      "size": 40,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.132Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/data/sections/contact-form.json": {
+      "description": "",
+      "tokens": 528,
+      "hash": "e3189001e62495b4",
+      "size": 1846,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.136Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/data/sections/contact-us.json": {
+      "description": "",
+      "tokens": 426,
+      "hash": "a2dbbd9ac4b91723",
+      "size": 1488,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.140Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/data/sections/counters.json": {
+      "description": "",
+      "tokens": 136,
+      "hash": "afa7ba61594c4830",
+      "size": 475,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.145Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/data/sections/estimated-price.json": {
+      "description": "",
+      "tokens": 76,
+      "hash": "7ece156b70af7411",
+      "size": 266,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.149Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/data/sections/features.json": {
+      "description": "",
+      "tokens": 368,
+      "hash": "457a805114d1af04",
+      "size": 1287,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.152Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/data/sections/hero-3.json": {
+      "description": "",
+      "tokens": 145,
+      "hash": "b7a450c81a9bf001",
+      "size": 508,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.155Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/data/sections/latest-posts-2.json": {
+      "description": "",
+      "tokens": 85,
+      "hash": "9fb9c4b333dc03ff",
+      "size": 297,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.162Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/data/sections/latest-posts.json": {
+      "description": "",
+      "tokens": 50,
+      "hash": "1ff1e0c0f580af0d",
+      "size": 174,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.166Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/data/sections/locations.json": {
+      "description": "",
+      "tokens": 824,
+      "hash": "01afbacf19246f45",
+      "size": 2883,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.169Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/data/sections/owners.json": {
+      "description": "",
+      "tokens": 388,
+      "hash": "9dbcfa93972c3995",
+      "size": 1356,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.171Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/data/sections/pricing.json": {
+      "description": "",
+      "tokens": 522,
+      "hash": "1b75b6d835ad747e",
+      "size": 1826,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.174Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/data/sections/projects-list.json": {
+      "description": "",
+      "tokens": 26,
+      "hash": "149d164a1dce7398",
+      "size": 89,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.180Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/data/sections/renovation.json": {
+      "description": "",
+      "tokens": 114,
+      "hash": "4fa40e40cc22d306",
+      "size": 399,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.185Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/data/sections/services-2.json": {
+      "description": "",
+      "tokens": 370,
+      "hash": "19941858d2268818",
+      "size": 1295,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.189Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/data/sections/services.json": {
+      "description": "",
+      "tokens": 330,
+      "hash": "e57f8f3fe76395ea",
+      "size": 1155,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.196Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/data/services/service-1.md": {
+      "description": "preview details",
+      "tokens": 1002,
+      "hash": "974b9f986be36459",
+      "size": 4007,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.201Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/data/services/service-2.md": {
+      "description": "preview details",
+      "tokens": 998,
+      "hash": "5ce932b7b0074b27",
+      "size": 3993,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.205Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/data/services/service-3.md": {
+      "description": "preview details",
+      "tokens": 997,
+      "hash": "a5063c8bd5fdfb60",
+      "size": 3989,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.213Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/data/services/service-4.md": {
+      "description": "preview details",
+      "tokens": 997,
+      "hash": "daece19a4730e0cd",
+      "size": 3989,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.216Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/data/services/service-5.md": {
+      "description": "preview details",
+      "tokens": 1091,
+      "hash": "11e6a7b3ef98a253",
+      "size": 4366,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.221Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/data/sliders/certificates.json": {
+      "description": "",
+      "tokens": 284,
+      "hash": "64bc4c88ffbbc630",
+      "size": 994,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.228Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/data/sliders/hero-2.json": {
+      "description": "",
+      "tokens": 270,
+      "hash": "272794fd8b6e2884",
+      "size": 945,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.232Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/data/sliders/hero.json": {
+      "description": "",
+      "tokens": 319,
+      "hash": "624f89fe8eb9a437",
+      "size": 1114,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.237Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/data/sliders/latest-posts.json": {
+      "description": "",
+      "tokens": 25,
+      "hash": "5eea53bb9d35298a",
+      "size": 86,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.241Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/data/sliders/partners.json": {
+      "description": "",
+      "tokens": 133,
+      "hash": "81b5dc6c41df2cf0",
+      "size": 463,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.247Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/data/sliders/products.json": {
+      "description": "",
+      "tokens": 384,
+      "hash": "95971e65caabe3c0",
+      "size": 1355,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.251Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/data/sliders/projects-2.json": {
+      "description": "",
+      "tokens": 30,
+      "hash": "69a9cc05c7a5bef5",
+      "size": 103,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.254Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/data/sliders/projects.json": {
+      "description": "",
+      "tokens": 27,
+      "hash": "b8accc7779866b5f",
+      "size": 94,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.259Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/data/sliders/team.json": {
+      "description": "",
+      "tokens": 1270,
+      "hash": "3642d1075d32e18e",
+      "size": 4443,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.265Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/data/sliders/testimonial.json": {
+      "description": "",
+      "tokens": 484,
+      "hash": "fb66b4ac95fa5305",
+      "size": 1696,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.269Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/data/team/team-1.md": {
+      "description": "preview details",
+      "tokens": 349,
+      "hash": "a01e3a10de018a99",
+      "size": 1400,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.272Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/data/team/team-2.md": {
+      "description": "preview details",
+      "tokens": 349,
+      "hash": "1b386dbba2159eef",
+      "size": 1399,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.275Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/data/team/team-3.md": {
+      "description": "preview details",
+      "tokens": 349,
+      "hash": "6cd62c5673addbdc",
+      "size": 1398,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.281Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/data/team/team-4.md": {
+      "description": "preview details",
+      "tokens": 349,
+      "hash": "39da01992c2270e6",
+      "size": 1399,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.286Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/data/team/team-5.md": {
+      "description": "preview details",
+      "tokens": 350,
+      "hash": "0bb4b174c366ece6",
+      "size": 1401,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.291Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/data/team/team-6.md": {
+      "description": "preview details",
+      "tokens": 349,
+      "hash": "452f82c28703070c",
+      "size": 1400,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.296Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/layouts/footers/DefaultFooter.js": {
+      "description": "Declares DefaultFooter",
+      "tokens": 1916,
+      "hash": "80ed1b9f6f47cc9d",
+      "size": 6705,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.300Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "DefaultFooter",
+          "kind": "fn",
+          "startLine": 4,
+          "endLine": 97,
+          "tokens": 1869
+        }
+      ]
+    },
+    ".local/builty-react (1)/builty/src/layouts/footers/Index.js": {
+      "description": "Declares Footer",
+      "tokens": 66,
+      "hash": "10528e6b5c9ff842",
+      "size": 229,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.303Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/layouts/headers/DefaultHeader.js": {
+      "description": "Declares DefaultHeader",
+      "tokens": 3853,
+      "hash": "d758a89d29ec3e25",
+      "size": 13485,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.306Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "DefaultHeader",
+          "kind": "fn",
+          "startLine": 6,
+          "endLine": 260,
+          "tokens": 3730
+        }
+      ]
+    },
+    ".local/builty-react (1)/builty/src/layouts/headers/Index.js": {
+      "description": "Declares Header",
+      "tokens": 134,
+      "hash": "4f641d7d825c160f",
+      "size": 468,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.308Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/layouts/Layouts.js": {
+      "description": "Declares Layouts",
+      "tokens": 298,
+      "hash": "ad14a0a923a44ed3",
+      "size": 1040,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.313Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/layouts/Preloader.jsx": {
+      "description": "Preloader",
+      "tokens": 82,
+      "hash": "c08ef02998f847d1",
+      "size": 286,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.315Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/lib/date.js": {
+      "description": "Exports Date",
+      "tokens": 59,
+      "hash": "8c78f0db6014ce45",
+      "size": 204,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.318Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/lib/posts.js": {
+      "description": "Exports getSortedPostsData, getPaginatedPostsData, getRelatedPosts, getAllPostsIds, getPostData",
+      "tokens": 1015,
+      "hash": "ec96fffd707a42bc",
+      "size": 3551,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.320Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "getSortedPostsData",
+          "kind": "fn",
+          "startLine": 9,
+          "endLine": 38,
+          "tokens": 220
+        },
+        {
+          "name": "getPaginatedPostsData",
+          "kind": "fn",
+          "startLine": 39,
+          "endLine": 71,
+          "tokens": 262
+        },
+        {
+          "name": "getRelatedPosts",
+          "kind": "fn",
+          "startLine": 72,
+          "endLine": 108,
+          "tokens": 250
+        },
+        {
+          "name": "getAllPostsIds",
+          "kind": "fn",
+          "startLine": 109,
+          "endLine": 119,
+          "tokens": 62
+        },
+        {
+          "name": "getPostData",
+          "kind": "fn",
+          "startLine": 120,
+          "endLine": 139,
+          "tokens": 163
+        }
+      ]
+    },
+    ".local/builty-react (1)/builty/src/lib/projects.js": {
+      "description": "Exports getSortedProjectsData, getFeaturedProjectsData, getRelatedProjects, getAllProjectsIds, getProjectData",
+      "tokens": 997,
+      "hash": "ec230f952345e51b",
+      "size": 3487,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.322Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "getSortedProjectsData",
+          "kind": "fn",
+          "startLine": 9,
+          "endLine": 38,
+          "tokens": 218
+        },
+        {
+          "name": "getFeaturedProjectsData",
+          "kind": "fn",
+          "startLine": 39,
+          "endLine": 73,
+          "tokens": 238
+        },
+        {
+          "name": "getRelatedProjects",
+          "kind": "fn",
+          "startLine": 74,
+          "endLine": 110,
+          "tokens": 252
+        },
+        {
+          "name": "getAllProjectsIds",
+          "kind": "fn",
+          "startLine": 111,
+          "endLine": 121,
+          "tokens": 64
+        },
+        {
+          "name": "getProjectData",
+          "kind": "fn",
+          "startLine": 122,
+          "endLine": 141,
+          "tokens": 164
+        }
+      ]
+    },
+    ".local/builty-react (1)/builty/src/lib/services.js": {
+      "description": "Exports getSortedServicesData, getAllServicesIds, getServiceData",
+      "tokens": 507,
+      "hash": "eb8fe4913ef8a2ff",
+      "size": 1773,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.324Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "getSortedServicesData",
+          "kind": "fn",
+          "startLine": 9,
+          "endLine": 38,
+          "tokens": 218
+        },
+        {
+          "name": "getAllServicesIds",
+          "kind": "fn",
+          "startLine": 39,
+          "endLine": 49,
+          "tokens": 64
+        },
+        {
+          "name": "getServiceData",
+          "kind": "fn",
+          "startLine": 50,
+          "endLine": 69,
+          "tokens": 164
+        }
+      ]
+    },
+    ".local/builty-react (1)/builty/src/lib/team.js": {
+      "description": "Exports getSortedTeamData, getAllTeamIds, getTeamData",
+      "tokens": 497,
+      "hash": "f195e4ceccd6e126",
+      "size": 1738,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.326Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/lib/usePagination.js": {
+      "description": "Exports usePagination",
+      "tokens": 210,
+      "hash": "0a090a806b49cf81",
+      "size": 734,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.331Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/pages/_app.js": {
+      "description": "register Swiper custom elements",
+      "tokens": 186,
+      "hash": "5413934ff8961575",
+      "size": 648,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.336Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/pages/_document.js": {
+      "description": "Declares MyDocument",
+      "tokens": 403,
+      "hash": "b6ebb00d109759b5",
+      "size": 1408,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.341Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/pages/404.jsx": {
+      "description": "E404 — renders form",
+      "tokens": 470,
+      "hash": "af4fbb859ccced7c",
+      "size": 1647,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.346Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/pages/about.jsx": {
+      "description": "TeamSlider",
+      "tokens": 1987,
+      "hash": "2ef6a7fb1564c281",
+      "size": 6956,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.351Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "About",
+          "kind": "fn",
+          "startLine": 13,
+          "endLine": 169,
+          "tokens": 1785
+        }
+      ]
+    },
+    ".local/builty-react (1)/builty/src/pages/api/hello.js": {
+      "description": "Next.js API route support: https://nextjs.org/docs/api-routes/introduction",
+      "tokens": 50,
+      "hash": "9b80d26d2ce14516",
+      "size": 175,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.354Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/pages/blog/[id].jsx": {
+      "description": "PostsDetail — renders form — SSR",
+      "tokens": 3195,
+      "hash": "ce930dde856297a8",
+      "size": 11181,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.357Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "PostsDetail",
+          "kind": "fn",
+          "startLine": 9,
+          "endLine": 260,
+          "tokens": 3011
+        },
+        {
+          "name": "getStaticPaths",
+          "kind": "fn",
+          "startLine": 261,
+          "endLine": 269,
+          "tokens": 38
+        },
+        {
+          "name": "getStaticProps",
+          "kind": "fn",
+          "startLine": 270,
+          "endLine": 280,
+          "tokens": 74
+        }
+      ]
+    },
+    ".local/builty-react (1)/builty/src/pages/blog/page/[page].jsx": {
+      "description": "PER_PAGE — SSR",
+      "tokens": 564,
+      "hash": "7bd5eb0ba5b0609c",
+      "size": 1973,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.367Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "Blog",
+          "kind": "fn",
+          "startLine": 11,
+          "endLine": 44,
+          "tokens": 250
+        },
+        {
+          "name": "getStaticPaths",
+          "kind": "fn",
+          "startLine": 45,
+          "endLine": 51,
+          "tokens": 49
+        },
+        {
+          "name": "getStaticProps",
+          "kind": "fn",
+          "startLine": 52,
+          "endLine": 79,
+          "tokens": 163
+        }
+      ]
+    },
+    ".local/builty-react (1)/builty/src/pages/blog-2.jsx": {
+      "description": "Blog — SSR",
+      "tokens": 2225,
+      "hash": "bdfe958c20d350ea",
+      "size": 7786,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.371Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "Blog",
+          "kind": "fn",
+          "startLine": 10,
+          "endLine": 179,
+          "tokens": 2040
+        },
+        {
+          "name": "getStaticProps",
+          "kind": "fn",
+          "startLine": 180,
+          "endLine": 190,
+          "tokens": 58
+        }
+      ]
+    },
+    ".local/builty-react (1)/builty/src/pages/blog.jsx": {
+      "description": "Blog — SSR",
+      "tokens": 407,
+      "hash": "498059b83dc09c59",
+      "size": 1424,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.373Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/pages/cart.jsx": {
+      "description": "Cart — renders form",
+      "tokens": 2057,
+      "hash": "9875e2ffb84783be",
+      "size": 7205,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.380Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "Cart",
+          "kind": "fn",
+          "startLine": 6,
+          "endLine": 168,
+          "tokens": 1974
+        }
+      ]
+    },
+    ".local/builty-react (1)/builty/src/pages/checkout.jsx": {
+      "description": "Checkout — renders form",
+      "tokens": 2450,
+      "hash": "f947a38b13a56a19",
+      "size": 8574,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.383Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "Checkout",
+          "kind": "fn",
+          "startLine": 5,
+          "endLine": 169,
+          "tokens": 2376
+        }
+      ]
+    },
+    ".local/builty-react (1)/builty/src/pages/contact.jsx": {
+      "description": "Contact — renders form",
+      "tokens": 4613,
+      "hash": "7061e9a96b1aa537",
+      "size": 16145,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.385Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "Contact",
+          "kind": "fn",
+          "startLine": 7,
+          "endLine": 264,
+          "tokens": 4477
+        }
+      ]
+    },
+    ".local/builty-react (1)/builty/src/pages/core-values.jsx": {
+      "description": "CoreValues",
+      "tokens": 2022,
+      "hash": "0caaeafb3f7695f8",
+      "size": 7082,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.389Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "CoreValues",
+          "kind": "fn",
+          "startLine": 8,
+          "endLine": 177,
+          "tokens": 1897
+        }
+      ]
+    },
+    ".local/builty-react (1)/builty/src/pages/history.jsx": {
+      "description": "History",
+      "tokens": 1068,
+      "hash": "860c3d8e35891b5c",
+      "size": 3738,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.391Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "History",
+          "kind": "fn",
+          "startLine": 6,
+          "endLine": 97,
+          "tokens": 995
+        }
+      ]
+    },
+    ".local/builty-react (1)/builty/src/pages/index-2.jsx": {
+      "description": "Hero2Slider — SSR",
+      "tokens": 458,
+      "hash": "cffc9925efea2b87",
+      "size": 1601,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.397Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/pages/index-3.jsx": {
+      "description": "ProductsSlider — SSR",
+      "tokens": 446,
+      "hash": "56f30b3e3122cd7a",
+      "size": 1559,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.398Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/pages/index.jsx": {
+      "description": "HeroSlider — SSR",
+      "tokens": 515,
+      "hash": "3f613f252200dec3",
+      "size": 1801,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.400Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "Home1",
+          "kind": "fn",
+          "startLine": 21,
+          "endLine": 41,
+          "tokens": 136
+        },
+        {
+          "name": "getStaticProps",
+          "kind": "fn",
+          "startLine": 42,
+          "endLine": 52,
+          "tokens": 62
+        }
+      ]
+    },
+    ".local/builty-react (1)/builty/src/pages/index.scss": {
+      "description": "Styles: 1 rules",
+      "tokens": 9,
+      "hash": "5927ab0073ca5687",
+      "size": 31,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.403Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/pages/leadership.jsx": {
+      "description": "TeamSlider",
+      "tokens": 1843,
+      "hash": "4ce0853c619247d7",
+      "size": 6452,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.405Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "Leadership",
+          "kind": "fn",
+          "startLine": 11,
+          "endLine": 167,
+          "tokens": 1706
+        }
+      ]
+    },
+    ".local/builty-react (1)/builty/src/pages/login.jsx": {
+      "description": "Login — renders form",
+      "tokens": 1146,
+      "hash": "be0fd122ec99bcdf",
+      "size": 4010,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.407Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "Login",
+          "kind": "fn",
+          "startLine": 5,
+          "endLine": 83,
+          "tokens": 1097
+        }
+      ]
+    },
+    ".local/builty-react (1)/builty/src/pages/product-detail.jsx": {
+      "description": "ProductDetail — renders table",
+      "tokens": 4203,
+      "hash": "f9556a62763a797c",
+      "size": 14716,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.415Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "ProductDetail",
+          "kind": "fn",
+          "startLine": 8,
+          "endLine": 283,
+          "tokens": 4053
+        }
+      ]
+    },
+    ".local/builty-react (1)/builty/src/pages/product-grid.jsx": {
+      "description": "ProductGrid",
+      "tokens": 3594,
+      "hash": "cb351004b32dbdbe",
+      "size": 12596,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.420Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "ProductGrid",
+          "kind": "fn",
+          "startLine": 6,
+          "endLine": 264,
+          "tokens": 3484
+        }
+      ]
+    },
+    ".local/builty-react (1)/builty/src/pages/product-list.jsx": {
+      "description": "ProductList",
+      "tokens": 3122,
+      "hash": "7daef86bcf881188",
+      "size": 10945,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.425Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "ProductList",
+          "kind": "fn",
+          "startLine": 6,
+          "endLine": 237,
+          "tokens": 3020
+        }
+      ]
+    },
+    ".local/builty-react (1)/builty/src/pages/projects/[id].jsx": {
+      "description": "ProjectDetail — SSR",
+      "tokens": 1489,
+      "hash": "e8c1f5de20196f50",
+      "size": 5209,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.438Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "ProjectDetail",
+          "kind": "fn",
+          "startLine": 12,
+          "endLine": 142,
+          "tokens": 1214
+        },
+        {
+          "name": "getStaticPaths",
+          "kind": "fn",
+          "startLine": 143,
+          "endLine": 151,
+          "tokens": 39
+        },
+        {
+          "name": "getStaticProps",
+          "kind": "fn",
+          "startLine": 152,
+          "endLine": 164,
+          "tokens": 100
+        }
+      ]
+    },
+    ".local/builty-react (1)/builty/src/pages/projects-2.jsx": {
+      "description": "Portfolio — SSR",
+      "tokens": 761,
+      "hash": "e57b18138dd669d6",
+      "size": 2663,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.443Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "Portfolio",
+          "kind": "fn",
+          "startLine": 8,
+          "endLine": 60,
+          "tokens": 646
+        },
+        {
+          "name": "getStaticProps",
+          "kind": "fn",
+          "startLine": 61,
+          "endLine": 69,
+          "tokens": 44
+        }
+      ]
+    },
+    ".local/builty-react (1)/builty/src/pages/projects.jsx": {
+      "description": "Portfolio — SSR",
+      "tokens": 850,
+      "hash": "5ffe6c818996afe9",
+      "size": 2972,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.453Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "Portfolio",
+          "kind": "fn",
+          "startLine": 8,
+          "endLine": 71,
+          "tokens": 732
+        },
+        {
+          "name": "getStaticProps",
+          "kind": "fn",
+          "startLine": 72,
+          "endLine": 80,
+          "tokens": 44
+        }
+      ]
+    },
+    ".local/builty-react (1)/builty/src/pages/services/[id].jsx": {
+      "description": "ServiceDetail — SSR",
+      "tokens": 1306,
+      "hash": "f7d96dcb082797cb",
+      "size": 4571,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.470Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "ServiceDetail",
+          "kind": "fn",
+          "startLine": 8,
+          "endLine": 119,
+          "tokens": 1146
+        },
+        {
+          "name": "getStaticPaths",
+          "kind": "fn",
+          "startLine": 120,
+          "endLine": 128,
+          "tokens": 39
+        },
+        {
+          "name": "getStaticProps",
+          "kind": "fn",
+          "startLine": 129,
+          "endLine": 137,
+          "tokens": 48
+        }
+      ]
+    },
+    ".local/builty-react (1)/builty/src/pages/services.jsx": {
+      "description": "Services — renders modal — uses useState — SSR",
+      "tokens": 2178,
+      "hash": "fb0854a60dcaba50",
+      "size": 7622,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.473Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "Services",
+          "kind": "fn",
+          "startLine": 16,
+          "endLine": 161,
+          "tokens": 1922
+        },
+        {
+          "name": "getStaticProps",
+          "kind": "fn",
+          "startLine": 162,
+          "endLine": 170,
+          "tokens": 44
+        }
+      ]
+    },
+    ".local/builty-react (1)/builty/src/pages/team/[id].jsx": {
+      "description": "TeamDetail — SSR",
+      "tokens": 1567,
+      "hash": "f503f6d840254803",
+      "size": 5483,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.476Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "TeamDetail",
+          "kind": "fn",
+          "startLine": 8,
+          "endLine": 115,
+          "tokens": 1387
+        },
+        {
+          "name": "getStaticPaths",
+          "kind": "fn",
+          "startLine": 116,
+          "endLine": 124,
+          "tokens": 38
+        },
+        {
+          "name": "getStaticProps",
+          "kind": "fn",
+          "startLine": 125,
+          "endLine": 135,
+          "tokens": 73
+        }
+      ]
+    },
+    ".local/builty-react (1)/builty/src/pages/team.jsx": {
+      "description": "Team — SSR",
+      "tokens": 1175,
+      "hash": "73495504b747efce",
+      "size": 4111,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.483Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "Team",
+          "kind": "fn",
+          "startLine": 7,
+          "endLine": 82,
+          "tokens": 1061
+        },
+        {
+          "name": "getStaticProps",
+          "kind": "fn",
+          "startLine": 83,
+          "endLine": 91,
+          "tokens": 39
+        }
+      ]
+    },
+    ".local/builty-react (1)/builty/src/styles/globals.css": {
+      "description": "",
+      "tokens": 0,
+      "hash": "e3b0c44298fc1c14",
+      "size": 0,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.486Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/styles/scss/_basic-dark.scss": {
+      "description": "",
+      "tokens": 3544,
+      "hash": "97a3c011acff9460",
+      "size": 12403,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.491Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/styles/scss/_basic.scss": {
+      "description": "Styles: 128 rules, 2 animations",
+      "tokens": 46798,
+      "hash": "dc6af5b62f240443",
+      "size": 163793,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.502Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/styles/scss/_color.scss": {
+      "description": "Styles: 140 rules",
+      "tokens": 1722,
+      "hash": "94b5741684646a7f",
+      "size": 6027,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.508Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/styles/scss/_custom.scss": {
+      "description": "",
+      "tokens": 0,
+      "hash": "e3b0c44298fc1c14",
+      "size": 0,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.519Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/styles/scss/_responsive.scss": {
+      "description": "Styles: 7 rules, 7 media queries",
+      "tokens": 21277,
+      "hash": "6bd3f31af2eb0a56",
+      "size": 74467,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.599Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/styles/scss/style.scss": {
+      "description": "Styles: 6 rules",
+      "tokens": 95,
+      "hash": "c64fa5f91371bee5",
+      "size": 332,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.630Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/builty/src/styles/scss/variables.module.scss": {
+      "description": "Styles: 1 rules",
+      "tokens": 220,
+      "hash": "e5c1a979f8597633",
+      "size": 770,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.642Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/Documentation/css/collection.css": {
+      "description": "Styles: 157 rules, 1 media queries",
+      "tokens": 65611,
+      "hash": "50ea444401a844d4",
+      "size": 229638,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:02.922Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/Documentation/css/custom.css": {
+      "description": "Styles: 17 rules, 2 media queries",
+      "tokens": 359,
+      "hash": "b4739424cd297d61",
+      "size": 1254,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:03.046Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/Documentation/index.html": {
+      "description": "Builty - React NextJS Template",
+      "tokens": 4507,
+      "hash": "15aded297579106f",
+      "size": 16898,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:03.055Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/Documentation/js/bootstrap.min2.js": {
+      "description": "b: c, c, c, d",
+      "tokens": 10172,
+      "hash": "f971b901aeb9e55b",
+      "size": 35601,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:03.388Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/Documentation/js/custom.js": {
+      "description": "",
+      "tokens": 188,
+      "hash": "099c301068d6c511",
+      "size": 658,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:03.425Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/Documentation/js/jquery-2.1.4.min2.js": {
+      "description": "s: ga, ha, b + 8 more",
+      "tokens": 24099,
+      "hash": "f16ab224bb962910",
+      "size": 84345,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:03.574Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/Documentation/js/other.js": {
+      "description": "s: ga, ha, b + 8 more",
+      "tokens": 53551,
+      "hash": "563c556f33a764c1",
+      "size": 187432,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:03.849Z",
+      "source": "scan"
+    },
+    ".local/builty-react (1)/Readme.txt": {
+      "description": "Builty - Construction & Industry React NextJS Template",
+      "tokens": 745,
+      "hash": "a770795040e64bee",
+      "size": 2979,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:03.852Z",
+      "source": "scan"
+    },
+    ".local/contant.md": {
+      "description": "REEBAU",
+      "tokens": 1505,
+      "hash": "de79807417d844a8",
+      "size": 6115,
+      "mtimeMs": 1786190518737.8635,
+      "updatedAt": "2026-08-10T09:03:03.853Z",
+      "source": "scan"
+    },
+    ".local/prompt.md": {
+      "description": "Exports LegalContent",
+      "tokens": 723,
+      "hash": "567faa008b9ca0b9",
+      "size": 3017,
+      "mtimeMs": 1786351748674.9585,
+      "updatedAt": "2026-08-10T09:03:03.855Z",
       "source": "scan"
     },
     "AGENTS.md": {
@@ -60,7 +2254,7 @@
       "hash": "63f2c50380ed6303",
       "size": 678,
       "mtimeMs": 1786180324398.9119,
-      "updatedAt": "2026-08-08T11:51:59.782Z",
+      "updatedAt": "2026-08-10T09:03:03.856Z",
       "source": "scan"
     },
     "CLAUDE.md": {
@@ -69,7 +2263,7 @@
       "hash": "dc7af420506c1e1f",
       "size": 238,
       "mtimeMs": 1786189918873.5645,
-      "updatedAt": "2026-08-08T11:51:59.785Z",
+      "updatedAt": "2026-08-10T09:03:03.856Z",
       "source": "scan"
     },
     "eslint.config.mjs": {
@@ -78,7 +2272,7 @@
       "hash": "870f1adccecf3051",
       "size": 465,
       "mtimeMs": 1776857636491.106,
-      "updatedAt": "2026-08-08T11:51:59.785Z",
+      "updatedAt": "2026-08-10T09:03:03.857Z",
       "source": "scan"
     },
     "GEMINI.md": {
@@ -87,16 +2281,16 @@
       "hash": "8c90778623bf50ac",
       "size": 271,
       "mtimeMs": 1786189919680.1794,
-      "updatedAt": "2026-08-08T11:51:59.789Z",
+      "updatedAt": "2026-08-10T09:03:03.857Z",
       "source": "scan"
     },
     "next-env.d.ts": {
       "description": "/ <reference types=\"next\" />",
-      "tokens": 83,
-      "hash": "1862ac4bbbc5192d",
-      "size": 288,
-      "mtimeMs": 1786180324294.9116,
-      "updatedAt": "2026-08-08T11:51:59.791Z",
+      "tokens": 85,
+      "hash": "0f70629890b72a0a",
+      "size": 296,
+      "mtimeMs": 1786254361714.3164,
+      "updatedAt": "2026-08-10T09:03:03.858Z",
       "source": "scan"
     },
     "next.config.ts": {
@@ -105,25 +2299,25 @@
       "hash": "58d7f0d9ff632e87",
       "size": 156,
       "mtimeMs": 1786180206843.185,
-      "updatedAt": "2026-08-08T11:51:59.791Z",
+      "updatedAt": "2026-08-10T09:03:03.859Z",
       "source": "scan"
     },
     "package.json": {
       "description": "Node.js package manifest",
-      "tokens": 158,
-      "hash": "068e38cc650c29e2",
-      "size": 551,
-      "mtimeMs": 1786180206851.1855,
-      "updatedAt": "2026-08-08T11:51:59.792Z",
+      "tokens": 251,
+      "hash": "0419f695cb45c086",
+      "size": 876,
+      "mtimeMs": 1786193743063.5125,
+      "updatedAt": "2026-08-10T09:03:03.859Z",
       "source": "scan"
     },
     "pnpm-lock.yaml": {
       "description": "pnpm lock file",
-      "tokens": 36255,
-      "hash": "5c0d93207affef58",
-      "size": 126892,
-      "mtimeMs": 1786180314298.4768,
-      "updatedAt": "2026-08-08T11:51:59.795Z",
+      "tokens": 48036,
+      "hash": "8a7db4584ded60c2",
+      "size": 168125,
+      "mtimeMs": 1786193742998.8318,
+      "updatedAt": "2026-08-10T09:03:03.863Z",
       "source": "scan"
     },
     "pnpm-workspace.yaml": {
@@ -132,7 +2326,25 @@
       "hash": "3ff85564ea77ba0e",
       "size": 57,
       "mtimeMs": 1786180206850.184,
-      "updatedAt": "2026-08-08T11:51:59.798Z",
+      "updatedAt": "2026-08-10T09:03:03.864Z",
+      "source": "scan"
+    },
+    "public/css/bootstrap.min.css.map": {
+      "description": "",
+      "tokens": 115010,
+      "hash": "cff735af3cee47a5",
+      "size": 431289,
+      "mtimeMs": 1786197510836.0796,
+      "updatedAt": "2026-08-10T09:03:03.876Z",
+      "source": "scan"
+    },
+    "public/css/magnific-popup.css": {
+      "description": "Remove all paddings around the image on small screen",
+      "tokens": 2194,
+      "hash": "7554dbf7a3e5001f",
+      "size": 7676,
+      "mtimeMs": 1786197510920.17,
+      "updatedAt": "2026-08-10T09:03:03.877Z",
       "source": "scan"
     },
     "README.md": {
@@ -141,7 +2353,88 @@
       "hash": "60b55ff7df79af72",
       "size": 1450,
       "mtimeMs": 1776857636474.2546,
-      "updatedAt": "2026-08-08T11:51:59.801Z",
+      "updatedAt": "2026-08-10T09:03:03.879Z",
+      "source": "scan"
+    },
+    "src/@types/faq.ts": {
+      "description": "Exports FaqItem",
+      "tokens": 18,
+      "hash": "72d617322958dbf1",
+      "size": 60,
+      "mtimeMs": 1786265736868.8584,
+      "updatedAt": "2026-08-10T09:03:03.880Z",
+      "source": "scan"
+    },
+    "src/@types/gallery.ts": {
+      "description": "Exports GalleryItem",
+      "tokens": 23,
+      "hash": "e581b363b26f585f",
+      "size": 79,
+      "mtimeMs": 1786213917007.1665,
+      "updatedAt": "2026-08-10T09:03:03.880Z",
+      "source": "scan"
+    },
+    "src/@types/legal.ts": {
+      "description": "Exports LegalContent",
+      "tokens": 35,
+      "hash": "2d57d6f15598c7b1",
+      "size": 121,
+      "mtimeMs": 1786351913663.4475,
+      "updatedAt": "2026-08-10T09:03:03.881Z",
+      "source": "scan"
+    },
+    "src/@types/navigation.ts": {
+      "description": "Exports NavRoute",
+      "tokens": 25,
+      "hash": "a57501a7ca0e13d7",
+      "size": 87,
+      "mtimeMs": 1786196814645.497,
+      "updatedAt": "2026-08-10T09:03:03.882Z",
+      "source": "scan"
+    },
+    "src/@types/service.ts": {
+      "description": "Exports Service",
+      "tokens": 43,
+      "hash": "2a6c87818863c20a",
+      "size": 148,
+      "mtimeMs": 1786349976172.5034,
+      "updatedAt": "2026-08-10T09:03:03.883Z",
+      "source": "scan"
+    },
+    "src/app/agb/page.tsx": {
+      "description": "metadata",
+      "tokens": 192,
+      "hash": "7c4478ddcef88672",
+      "size": 676,
+      "mtimeMs": 1786351961351.7317,
+      "updatedAt": "2026-08-10T09:03:03.883Z",
+      "source": "scan"
+    },
+    "src/app/datenschutz/page.tsx": {
+      "description": "metadata",
+      "tokens": 1434,
+      "hash": "508711d616aa81a1",
+      "size": 5046,
+      "mtimeMs": 1786352358478.1716,
+      "updatedAt": "2026-08-10T09:03:03.885Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "DatenschutzPage",
+          "kind": "fn",
+          "startLine": 10,
+          "endLine": 124,
+          "tokens": 1357
+        }
+      ]
+    },
+    "src/app/galerie/page.tsx": {
+      "description": "metadata",
+      "tokens": 85,
+      "hash": "03cfc4229ffae3cf",
+      "size": 297,
+      "mtimeMs": 1786275892191.987,
+      "updatedAt": "2026-08-10T09:03:03.885Z",
       "source": "scan"
     },
     "src/app/globals.css": {
@@ -150,16 +2443,43 @@
       "hash": "e1c0289930d17ef1",
       "size": 697,
       "mtimeMs": 1776857636386.963,
-      "updatedAt": "2026-08-08T11:51:59.803Z",
+      "updatedAt": "2026-08-10T09:03:03.886Z",
+      "source": "scan"
+    },
+    "src/app/impressum/page.tsx": {
+      "description": "metadata",
+      "tokens": 514,
+      "hash": "f8afd0a6d769b0ce",
+      "size": 1813,
+      "mtimeMs": 1786352227908.9368,
+      "updatedAt": "2026-08-10T09:03:03.889Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "ImpressumPage",
+          "kind": "fn",
+          "startLine": 10,
+          "endLine": 60,
+          "tokens": 440
+        }
+      ]
+    },
+    "src/app/kontakt/page.tsx": {
+      "description": "metadata",
+      "tokens": 78,
+      "hash": "58a51a28551f4ea3",
+      "size": 272,
+      "mtimeMs": 1786275799168.5815,
+      "updatedAt": "2026-08-10T09:03:03.890Z",
       "source": "scan"
     },
     "src/app/layout.tsx": {
       "description": "geistSans",
-      "tokens": 177,
-      "hash": "4e6acf1341f8d9c2",
-      "size": 617,
-      "mtimeMs": 1786009094002.1868,
-      "updatedAt": "2026-08-08T11:51:59.805Z",
+      "tokens": 395,
+      "hash": "d7edae85a49f3bc9",
+      "size": 1385,
+      "mtimeMs": 1786201779013.545,
+      "updatedAt": "2026-08-10T09:03:03.891Z",
       "source": "scan"
     },
     "src/app/page.module.css": {
@@ -168,26 +2488,521 @@
       "hash": "165ea66bc56f2793",
       "size": 2612,
       "mtimeMs": 1786009093519.6838,
-      "updatedAt": "2026-08-08T11:51:59.807Z",
+      "updatedAt": "2026-08-10T09:03:03.892Z",
       "source": "scan"
     },
     "src/app/page.tsx": {
       "description": "Home",
-      "tokens": 616,
-      "hash": "8b6f29326d0989b4",
-      "size": 2154,
-      "mtimeMs": 1786180206848.1833,
-      "updatedAt": "2026-08-08T11:51:59.810Z",
+      "tokens": 31,
+      "hash": "efd4ab22a0c83333",
+      "size": 107,
+      "mtimeMs": 1786202458365.182,
+      "updatedAt": "2026-08-10T09:03:03.893Z",
+      "source": "scan"
+    },
+    "src/app/services/[slug]/page.tsx": {
+      "description": "generateStaticParams",
+      "tokens": 235,
+      "hash": "6229f02c30e18029",
+      "size": 821,
+      "mtimeMs": 1786350116917.865,
+      "updatedAt": "2026-08-10T09:03:03.894Z",
+      "source": "scan"
+    },
+    "src/app/services/page.tsx": {
+      "description": "metadata",
+      "tokens": 92,
+      "hash": "16e0059e31c3e4c1",
+      "size": 324,
+      "mtimeMs": 1786275718383.206,
+      "updatedAt": "2026-08-10T09:03:03.895Z",
+      "source": "scan"
+    },
+    "src/app/ueber-uns/page.tsx": {
+      "description": "metadata",
+      "tokens": 93,
+      "hash": "c95b99242e202058",
+      "size": 330,
+      "mtimeMs": 1786275760389.5476,
+      "updatedAt": "2026-08-10T09:03:03.896Z",
+      "source": "scan"
+    },
+    "src/components/common/Breadcrumb/index.tsx": {
+      "description": "Breadcrumb",
+      "tokens": 296,
+      "hash": "6027fe4de6b03104",
+      "size": 1035,
+      "mtimeMs": 1786258531501.5054,
+      "updatedAt": "2026-08-10T09:03:03.897Z",
+      "source": "scan"
+    },
+    "src/components/common/Counters/index.tsx": {
+      "description": "stats",
+      "tokens": 199,
+      "hash": "9151fe445a5e63e0",
+      "size": 695,
+      "mtimeMs": 1786275418313.1792,
+      "updatedAt": "2026-08-10T09:03:03.898Z",
+      "source": "scan"
+    },
+    "src/components/common/Footer/index.tsx": {
+      "description": "usefulLinks — renders form",
+      "tokens": 1308,
+      "hash": "5da46665e1f296aa",
+      "size": 4589,
+      "mtimeMs": 1786201861473.6584,
+      "updatedAt": "2026-08-10T09:03:03.899Z",
       "source": "scan",
       "symbols": [
         {
-          "name": "Home",
+          "name": "Footer",
           "kind": "fn",
-          "startLine": 4,
-          "endLine": 70,
-          "tokens": 595
+          "startLine": 14,
+          "endLine": 138,
+          "tokens": 1193
         }
       ]
+    },
+    "src/components/common/Footer/style.css": {
+      "description": "Styles: 4 rules",
+      "tokens": 76,
+      "hash": "e291eeb7f98864af",
+      "size": 263,
+      "mtimeMs": 1786201645927.9976,
+      "updatedAt": "2026-08-10T09:03:03.900Z",
+      "source": "scan"
+    },
+    "src/components/common/Header/index.tsx": {
+      "description": "Header — uses useState, useEffect",
+      "tokens": 3048,
+      "hash": "8e378fa2d7711467",
+      "size": 10669,
+      "mtimeMs": 1786255406598.913,
+      "updatedAt": "2026-08-10T09:03:03.901Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "Header",
+          "kind": "fn",
+          "startLine": 12,
+          "endLine": 262,
+          "tokens": 2921
+        }
+      ]
+    },
+    "src/components/common/Header/style.css": {
+      "description": "Styles: 4 rules",
+      "tokens": 99,
+      "hash": "bd0d348a595b99fa",
+      "size": 346,
+      "mtimeMs": 1786255529199.5837,
+      "updatedAt": "2026-08-10T09:03:03.902Z",
+      "source": "scan"
+    },
+    "src/components/layouts/MainLayout.tsx": {
+      "description": "MainLayout",
+      "tokens": 80,
+      "hash": "09f1a575f7a9ec18",
+      "size": 277,
+      "mtimeMs": 1786200759303.047,
+      "updatedAt": "2026-08-10T09:03:03.903Z",
+      "source": "scan"
+    },
+    "src/components/ui/ContactFormFields.tsx": {
+      "description": "emptyContactFormValues",
+      "tokens": 823,
+      "hash": "920321dcde730cc5",
+      "size": 2878,
+      "mtimeMs": 1786266883544.2173,
+      "updatedAt": "2026-08-10T09:03:03.905Z",
+      "source": "scan"
+    },
+    "src/components/ui/GalleryPopup.tsx": {
+      "description": "GalleryPopup — uses useCallback, useEffect",
+      "tokens": 666,
+      "hash": "73d9f3337a4762b8",
+      "size": 2334,
+      "mtimeMs": 1786274326301.577,
+      "updatedAt": "2026-08-10T09:03:03.907Z",
+      "source": "scan"
+    },
+    "src/components/ui/Logo.tsx": {
+      "description": "Logo",
+      "tokens": 91,
+      "hash": "e8c2026d6fe55ce3",
+      "size": 316,
+      "mtimeMs": 1786198630191.9329,
+      "updatedAt": "2026-08-10T09:03:03.908Z",
+      "source": "scan"
+    },
+    "src/components/views/About/index.tsx": {
+      "description": "steps",
+      "tokens": 1717,
+      "hash": "0f9b3540acca6250",
+      "size": 6039,
+      "mtimeMs": 1786275506540.8093,
+      "updatedAt": "2026-08-10T09:03:03.910Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "AboutPage",
+          "kind": "fn",
+          "startLine": 31,
+          "endLine": 186,
+          "tokens": 1497
+        }
+      ]
+    },
+    "src/components/views/About/style.css": {
+      "description": "Styles: 2 rules",
+      "tokens": 31,
+      "hash": "d37f59bcb13c7629",
+      "size": 108,
+      "mtimeMs": 1786260550236.6765,
+      "updatedAt": "2026-08-10T09:03:03.911Z",
+      "source": "scan"
+    },
+    "src/components/views/Galerie/index.tsx": {
+      "description": "GaleriePage",
+      "tokens": 522,
+      "hash": "f7ee3323147b54ff",
+      "size": 1826,
+      "mtimeMs": 1786274370332.8264,
+      "updatedAt": "2026-08-10T09:03:03.912Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "GaleriePage",
+          "kind": "fn",
+          "startLine": 8,
+          "endLine": 60,
+          "tokens": 460
+        }
+      ]
+    },
+    "src/components/views/Home/About.tsx": {
+      "description": "About",
+      "tokens": 474,
+      "hash": "8e5471a73230b973",
+      "size": 1668,
+      "mtimeMs": 1786205674868.3489,
+      "updatedAt": "2026-08-10T09:03:03.914Z",
+      "source": "scan"
+    },
+    "src/components/views/Home/ContactFaq.tsx": {
+      "description": "ContactFaq — renders form — uses useState",
+      "tokens": 732,
+      "hash": "05cda0d391a0523d",
+      "size": 2563,
+      "mtimeMs": 1786266928908.0012,
+      "updatedAt": "2026-08-10T09:03:03.915Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "ContactFaq",
+          "kind": "fn",
+          "startLine": 12,
+          "endLine": 80,
+          "tokens": 637
+        }
+      ]
+    },
+    "src/components/views/Home/Gallery.tsx": {
+      "description": "Gallery",
+      "tokens": 475,
+      "hash": "8ee20e9f15a80cdc",
+      "size": 1660,
+      "mtimeMs": 1786213960230.6077,
+      "updatedAt": "2026-08-10T09:03:03.916Z",
+      "source": "scan"
+    },
+    "src/components/views/Home/Hero.tsx": {
+      "description": "slides",
+      "tokens": 671,
+      "hash": "e052861405b7859d",
+      "size": 2357,
+      "mtimeMs": 1786203396706.2637,
+      "updatedAt": "2026-08-10T09:03:03.917Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "Hero",
+          "kind": "fn",
+          "startLine": 24,
+          "endLine": 73,
+          "tokens": 447
+        }
+      ]
+    },
+    "src/components/views/Home/HowWeWork.tsx": {
+      "description": "items",
+      "tokens": 404,
+      "hash": "084e867bee8c88e6",
+      "size": 1419,
+      "mtimeMs": 1786206461038.3445,
+      "updatedAt": "2026-08-10T09:03:03.917Z",
+      "source": "scan"
+    },
+    "src/components/views/Home/index.tsx": {
+      "description": "HomePage",
+      "tokens": 164,
+      "hash": "602b4c6f48275bf2",
+      "size": 573,
+      "mtimeMs": 1786275021266.725,
+      "updatedAt": "2026-08-10T09:03:03.918Z",
+      "source": "scan"
+    },
+    "src/components/views/Home/Services.tsx": {
+      "description": "Services",
+      "tokens": 504,
+      "hash": "6af986a155e92955",
+      "size": 1763,
+      "mtimeMs": 1786275008890.1753,
+      "updatedAt": "2026-08-10T09:03:03.918Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "Services",
+          "kind": "fn",
+          "startLine": 5,
+          "endLine": 55,
+          "tokens": 475
+        }
+      ]
+    },
+    "src/components/views/Home/style.css": {
+      "description": "Styles: 12 rules",
+      "tokens": 494,
+      "hash": "bb9a0e688ac701d6",
+      "size": 1729,
+      "mtimeMs": 1786267461274.0522,
+      "updatedAt": "2026-08-10T09:03:03.919Z",
+      "source": "scan"
+    },
+    "src/components/views/Home/WhyUs.tsx": {
+      "description": "items",
+      "tokens": 671,
+      "hash": "d2abbeb47893980a",
+      "size": 2350,
+      "mtimeMs": 1786204974555.1301,
+      "updatedAt": "2026-08-10T09:03:03.920Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "WhyUs",
+          "kind": "fn",
+          "startLine": 27,
+          "endLine": 77,
+          "tokens": 462
+        }
+      ]
+    },
+    "src/components/views/Kontakt/index.tsx": {
+      "description": "mapSrc — renders form — uses useState",
+      "tokens": 2349,
+      "hash": "f4d042ca71d8c6be",
+      "size": 8226,
+      "mtimeMs": 1786267673434.119,
+      "updatedAt": "2026-08-10T09:03:03.923Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "KontaktPage",
+          "kind": "fn",
+          "startLine": 18,
+          "endLine": 203,
+          "tokens": 2157
+        }
+      ]
+    },
+    "src/components/views/Legal/index.tsx": {
+      "description": "LegalPage",
+      "tokens": 392,
+      "hash": "e9ece1ffd6e55a1a",
+      "size": 1372,
+      "mtimeMs": 1786351925080.181,
+      "updatedAt": "2026-08-10T09:03:03.925Z",
+      "source": "scan"
+    },
+    "src/components/views/ServiceDetail/index.tsx": {
+      "description": "ServiceDetailPage",
+      "tokens": 852,
+      "hash": "fc25e66586045758",
+      "size": 2984,
+      "mtimeMs": 1786351353434.7815,
+      "updatedAt": "2026-08-10T09:03:03.926Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "ServiceDetailPage",
+          "kind": "fn",
+          "startLine": 9,
+          "endLine": 91,
+          "tokens": 784
+        }
+      ]
+    },
+    "src/components/views/Services/index.tsx": {
+      "description": "ServicesPage — uses useState",
+      "tokens": 234,
+      "hash": "5fdc1bfedc36ef6a",
+      "size": 819,
+      "mtimeMs": 1786349586004.8264,
+      "updatedAt": "2026-08-10T09:03:03.927Z",
+      "source": "scan"
+    },
+    "src/components/views/Services/ServicesTabs.tsx": {
+      "description": "ServicesTabs",
+      "tokens": 465,
+      "hash": "9dd758b76844d522",
+      "size": 1625,
+      "mtimeMs": 1786275665339.8413,
+      "updatedAt": "2026-08-10T09:03:03.928Z",
+      "source": "scan"
+    },
+    "src/constants/contact-form-fields.ts": {
+      "description": "Exports ContactFormFieldType, ContactFormField, contactFormFields",
+      "tokens": 263,
+      "hash": "b703e6631d1e0440",
+      "size": 918,
+      "mtimeMs": 1786266853165.655,
+      "updatedAt": "2026-08-10T09:03:03.929Z",
+      "source": "scan"
+    },
+    "src/constants/contact-info.ts": {
+      "description": "Exports contactInfo, socialLinks",
+      "tokens": 128,
+      "hash": "cfce52ec18ba680c",
+      "size": 445,
+      "mtimeMs": 1786199128074.8496,
+      "updatedAt": "2026-08-10T09:03:03.930Z",
+      "source": "scan"
+    },
+    "src/constants/navbar-routes.ts": {
+      "description": "Exports navbarRoutes",
+      "tokens": 200,
+      "hash": "3625edd7c9684cf6",
+      "size": 700,
+      "mtimeMs": 1786198423292.814,
+      "updatedAt": "2026-08-10T09:03:03.931Z",
+      "source": "scan"
+    },
+    "src/hooks/useLocalStorage.ts": {
+      "description": "Exports useLocalStorage",
+      "tokens": 166,
+      "hash": "2794a33b57482371",
+      "size": 579,
+      "mtimeMs": 1786196852839.9827,
+      "updatedAt": "2026-08-10T09:03:03.932Z",
+      "source": "scan"
+    },
+    "src/mocks/faq.ts": {
+      "description": "Exports faqs",
+      "tokens": 237,
+      "hash": "3e8aeb14f6d15bb5",
+      "size": 834,
+      "mtimeMs": 1786265829753.2874,
+      "updatedAt": "2026-08-10T09:03:03.934Z",
+      "source": "scan"
+    },
+    "src/mocks/gallery.ts": {
+      "description": "Exports gallery",
+      "tokens": 191,
+      "hash": "bad7cbe1ebe6ec28",
+      "size": 667,
+      "mtimeMs": 1786213934526.7156,
+      "updatedAt": "2026-08-10T09:03:03.934Z",
+      "source": "scan"
+    },
+    "src/mocks/services.ts": {
+      "description": "Exports services",
+      "tokens": 710,
+      "hash": "88972cfe72794c77",
+      "size": 2504,
+      "mtimeMs": 1786350044856.5103,
+      "updatedAt": "2026-08-10T09:03:03.935Z",
+      "source": "scan"
+    },
+    "src/styles/globals.css": {
+      "description": "",
+      "tokens": 180,
+      "hash": "f313565ec939704c",
+      "size": 627,
+      "mtimeMs": 1786267608010.896,
+      "updatedAt": "2026-08-10T09:03:03.936Z",
+      "source": "scan"
+    },
+    "src/styles/scss/_basic-dark.scss": {
+      "description": "",
+      "tokens": 3544,
+      "hash": "97a3c011acff9460",
+      "size": 12403,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:03.940Z",
+      "source": "scan"
+    },
+    "src/styles/scss/_basic.scss": {
+      "description": "Styles: 128 rules, 2 animations",
+      "tokens": 46798,
+      "hash": "dc6af5b62f240443",
+      "size": 163793,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:03.944Z",
+      "source": "scan"
+    },
+    "src/styles/scss/_color.scss": {
+      "description": "Styles: 140 rules",
+      "tokens": 1722,
+      "hash": "94b5741684646a7f",
+      "size": 6027,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:03.945Z",
+      "source": "scan"
+    },
+    "src/styles/scss/_custom.scss": {
+      "description": "",
+      "tokens": 0,
+      "hash": "e3b0c44298fc1c14",
+      "size": 0,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:03.946Z",
+      "source": "scan"
+    },
+    "src/styles/scss/_responsive.scss": {
+      "description": "Styles: 7 rules, 7 media queries",
+      "tokens": 21277,
+      "hash": "6bd3f31af2eb0a56",
+      "size": 74467,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:03.949Z",
+      "source": "scan"
+    },
+    "src/styles/scss/style.scss": {
+      "description": "Styles: 6 rules",
+      "tokens": 95,
+      "hash": "c64fa5f91371bee5",
+      "size": 332,
+      "mtimeMs": 1782602844000,
+      "updatedAt": "2026-08-10T09:03:03.950Z",
+      "source": "scan"
+    },
+    "src/styles/scss/variables.module.scss": {
+      "description": "Styles: 1 rules",
+      "tokens": 220,
+      "hash": "ab85ad124e0b3e00",
+      "size": 770,
+      "mtimeMs": 1786198140415.8293,
+      "updatedAt": "2026-08-10T09:03:03.951Z",
+      "source": "scan"
+    },
+    "src/utils/slugify.ts": {
+      "description": "Exports slugify",
+      "tokens": 82,
+      "hash": "5b576d189a94f3a3",
+      "size": 291,
+      "mtimeMs": 1785501518174.0918,
+      "updatedAt": "2026-08-10T09:03:03.952Z",
+      "source": "scan"
     },
     "tsconfig.json": {
       "description": "TypeScript configuration",
@@ -195,7 +3010,16 @@
       "hash": "5c51df4c59f4510d",
       "size": 670,
       "mtimeMs": 1786180206845.1838,
-      "updatedAt": "2026-08-08T11:51:59.811Z",
+      "updatedAt": "2026-08-10T09:03:03.952Z",
+      "source": "scan"
+    },
+    "tsconfig.tsbuildinfo": {
+      "description": "",
+      "tokens": 44051,
+      "hash": "be8ce0320d25091e",
+      "size": 165191,
+      "mtimeMs": 1786352385034.7783,
+      "updatedAt": "2026-08-10T09:03:03.958Z",
       "source": "scan"
     }
   }
