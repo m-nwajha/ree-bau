@@ -1,7 +1,7 @@
 import Breadcrumb from "@/components/common/Breadcrumb";
 import Counters from "@/components/common/Counters";
-import Gallery from "../Home/Gallery";
-import { gallery } from "@/mocks/gallery";
+import Projekte from "../Home/Projekte";
+import { projekte } from "@/mocks/projekt";
 import './style.css'
 
 
@@ -135,7 +135,7 @@ const AboutPage = () => {
           </div>
         </div>
       </section>
-      <Gallery data={gallery} />
+      <Projekte data={projekte} />
       <section className="gap about-key-benefits">
         <div className="container">
           <div className="row align-items-center">

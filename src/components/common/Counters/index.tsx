@@ -6,7 +6,7 @@ const stats = [
 
 const Counters = () => {
   return (
-    <section className="gap counter-style-one">
+    <section className=" counter-style-one pb-5">
       <div className="container">
         <div className="row">
           {stats.map((stat) => (

@@ -35,6 +35,15 @@
   height: 100%;
 }
 
+.service-style-two .service-two-box:not(.last) {
+  display: flex;
+  flex-direction: column;
+}
+
+.service-style-two .service-two-box .service-two-icon {
+  margin-top: auto;
+}
+
 .service-two-box h3,
 .service-two-box span i {
   color: #000;
@@ -48,6 +57,18 @@
   font-size: 1.2rem;
 }
 
+.project-style-one .project-post .project-data p {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+@media (max-width: 1366px) {
+  .project-style-one .project-post .project-data:hover .project-icon {
+    right: 15px;
+  }
+}
 /* The theme gives .service-style-two a black background in dark mode
    (body.light-d) but never repaints the title/CTA link colors for that
    state, so they stay black-on-black. */

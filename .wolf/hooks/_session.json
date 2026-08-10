@@ -23,7 +23,7 @@
       "first_read": "2026-08-09T06:54:21.591Z"
     },
     "d:/orionlens/ree-bau/src/styles/scss/_basic.scss": {
-      "count": 5,
+      "count": 7,
       "tokens": 46798,
       "first_read": "2026-08-09T06:56:29.000Z"
     },
@@ -58,8 +58,8 @@
       "first_read": "2026-08-09T08:54:39.154Z"
     },
     "d:/orionlens/ree-bau/src/components/views/Home/ContactFaq.tsx": {
-      "count": 2,
-      "tokens": 0,
+      "count": 3,
+      "tokens": 732,
       "first_read": "2026-08-09T08:57:31.331Z"
     },
     "d:/orionlens/ree-bau/src/components/views/Kontakt/index.tsx": {
@@ -83,13 +83,13 @@
       "first_read": "2026-08-09T11:34:32.573Z"
     },
     "d:/orionlens/ree-bau/src/components/views/Services/index.tsx": {
-      "count": 1,
-      "tokens": 0,
+      "count": 3,
+      "tokens": 234,
       "first_read": "2026-08-09T11:34:45.687Z"
     },
     "d:/orionlens/ree-bau/src/components/views/Home/Services.tsx": {
-      "count": 1,
-      "tokens": 0,
+      "count": 2,
+      "tokens": 504,
       "first_read": "2026-08-09T11:35:04.066Z"
     },
     "d:/orionlens/ree-bau/src/mocks/services.ts": {
@@ -171,13 +171,98 @@
       "count": 1,
       "tokens": 298,
       "first_read": "2026-08-10T12:15:15.352Z"
+    },
+    "d:/orionlens/ree-bau/src/components/views/Home/style.css": {
+      "count": 2,
+      "tokens": 494,
+      "first_read": "2026-08-10T14:33:58.374Z"
+    },
+    "d:/orionlens/ree-bau/src/components/views/Projekte/index.tsx": {
+      "count": 4,
+      "tokens": 0,
+      "first_read": "2026-08-10T15:21:15.046Z"
+    },
+    "d:/orionlens/ree-bau/src/@types/projekt.ts": {
+      "count": 3,
+      "tokens": 0,
+      "first_read": "2026-08-10T15:21:50.815Z"
+    },
+    "d:/orionlens/ree-bau/src/mocks/projekt.ts": {
+      "count": 3,
+      "tokens": 0,
+      "first_read": "2026-08-10T15:21:55.525Z"
+    },
+    "d:/orionlens/ree-bau/src/components/ui/ProjektPopup.tsx": {
+      "count": 1,
+      "tokens": 0,
+      "first_read": "2026-08-10T15:23:28.172Z"
+    },
+    "d:/orionlens/ree-bau/src/components/views/Home/Projekte.tsx": {
+      "count": 4,
+      "tokens": 0,
+      "first_read": "2026-08-10T15:23:34.261Z"
+    },
+    "d:/orionlens/ree-bau/src/utils/slugify.ts": {
+      "count": 2,
+      "tokens": 82,
+      "first_read": "2026-08-10T15:31:45.458Z"
+    },
+    "d:/orionlens/ree-bau/src/components/views/Home/index.tsx": {
+      "count": 2,
+      "tokens": 164,
+      "first_read": "2026-08-10T15:41:09.722Z"
+    },
+    "d:/orionlens/ree-bau/.local/builty-react (1)/builty/src/pages/projects/[id].jsx": {
+      "count": 1,
+      "tokens": 1489,
+      "first_read": "2026-08-10T15:54:26.023Z"
+    },
+    "d:/orionlens/ree-bau/src/styles/scss/_color.scss": {
+      "count": 1,
+      "tokens": 1722,
+      "first_read": "2026-08-10T16:05:08.234Z"
+    },
+    "d:/orionlens/ree-bau/src/components/views/ProjektDetail/index.tsx": {
+      "count": 3,
+      "tokens": 0,
+      "first_read": "2026-08-10T16:06:23.698Z"
+    },
+    "d:/orionlens/ree-bau/src/components/views/Projekte/style.css": {
+      "count": 1,
+      "tokens": 0,
+      "first_read": "2026-08-10T16:07:15.407Z"
+    },
+    "d:/orionlens/ree-bau/src/components/views/ProjektDetail/style.css": {
+      "count": 1,
+      "tokens": 0,
+      "first_read": "2026-08-10T16:18:47.562Z"
+    },
+    "d:/orionlens/ree-bau/src/components/views/ProjektDetail/GallerySlider.tsx": {
+      "count": 1,
+      "tokens": 0,
+      "first_read": "2026-08-10T16:25:21.114Z"
+    },
+    "d:/orionlens/ree-bau/src/components/views/Home/HowWeWork.tsx": {
+      "count": 2,
+      "tokens": 404,
+      "first_read": "2026-08-10T16:33:01.384Z"
+    },
+    "d:/orionlens/ree-bau/src/components/views/Home/Hero.tsx": {
+      "count": 1,
+      "tokens": 671,
+      "first_read": "2026-08-10T16:52:07.001Z"
+    },
+    "d:/orionlens/ree-bau/src/styles/scss/_responsive.scss": {
+      "count": 3,
+      "tokens": 21277,
+      "first_read": "2026-08-10T16:52:30.585Z"
     }
   },
   "files_written": [],
   "edit_counts": {},
-  "anatomy_hits": 5,
-  "anatomy_misses": 29,
-  "repeated_reads_warned": 11,
+  "anatomy_hits": 13,
+  "anatomy_misses": 38,
+  "repeated_reads_warned": 35,
   "cerebrum_warnings": 0,
-  "stop_count": 10
+  "stop_count": 17
 }

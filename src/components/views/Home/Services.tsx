@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Service } from "@/@types/service";
 import "./style.css";
 
-const Services = ({ data, isHome  }: { data: Service[]; isHome?: boolean }) => {
+const Services = ({ data, isHome }: { data: Service[]; isHome?: boolean }) => {
   const visibleItems = isHome ? data.slice(-5) : data;
 
   return (
@@ -23,7 +23,10 @@ const Services = ({ data, isHome  }: { data: Service[]; isHome?: boolean }) => {
                   <h3>{item.title}</h3>
                   <p>{item.text}</p>
                   <div className="service-two-icon d-flex-all justify-content-start">
-                    <i className={`${item.icon} service-main-icon`} />
+                    <i
+                      className={`${item.icon} service-main-icon`}
+                      style={{ marginLeft: "17px" }}
+                    />
                     <span>
                       <i className="fa-solid fa-arrow-up-long" />
                     </span>

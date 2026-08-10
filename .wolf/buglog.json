@@ -24,6 +24,44 @@
       "related_bugs": ["bug-001"],
       "occurrences": 1,
       "last_seen": "2026-08-08T00:00:00Z"
+    },
+    {
+      "id": "bug-003",
+      "timestamp": "2026-08-10T00:00:00Z",
+      "error_message": "On /services, cards with shorter description text (e.g. Bodenverlegung) show a visible empty gap below the icon that cards with longer text (e.g. Malerarbeiten) don't have",
+      "file": "src/components/views/Home/style.css",
+      "root_cause": "An earlier fix added `align-items:stretch` on `.service-style-two .row` plus `height:100%` on `.service-two-box` so all cards in a row match the tallest sibling's height. But `.service-two-box` itself is plain block flow (h3, p, then the fixed-size 105x125 icon slot), not a flex column, so the extra height from stretching isn't distributed to any child — it just becomes dead space after whichever content happens to be last (the icon), and that gap is bigger the shorter the paragraph is.",
+      "fix": "Made `.service-style-two .service-two-box:not(.last)` a flex column and added `margin-top: auto` to `.service-two-icon`, pinning the icon to the bottom of the (already equal-height) card regardless of paragraph length. `:not(.last)` excludes the \"Alle Services ansehen\" filler card, which uses its own `d-flex-all` centering and would otherwise have its layout broken by the new flex-direction.",
+      "tags": ["css", "flexbox", "services", "layout"],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-08-10T00:00:00Z"
+    },
+    {
+      "id": "bug-004",
+      "timestamp": "2026-08-10T00:00:00Z",
+      "error_message": "User-reported (screenshot, mobile viewport): Hero slider on / shows garbled/overlapping heading text on mobile, e.g. the top of the h1 appears cut off with only the tail end of the heading and the paragraph/button visible",
+      "file": "src/styles/scss/_responsive.scss",
+      "root_cause": "The theme's base (desktop) CSS for `.featured-slider-two` correctly targets the real Swiper active-slide class, `.swiper-slide.swiper-slide-active .s-item ...`, to lay out the current slide (text left, image right) and hide/collapse inactive ones. But every mobile/tablet breakpoint override in _responsive.scss (14 occurrences) instead targeted a bare `.featured-slider-two .active .s-item ...` selector that never matches anything real Swiper ever adds (Swiper uses `swiper-slide-active`, not a bare `.active` on an ancestor) — so at every breakpoint below ~992px, the mobile-only rules that stack text above image (`flex-wrap: wrap`) and force both to `width:100%` never applied. The hero kept its desktop side-by-side flex-row layout at phone widths, squeezing the full-width image against the heading/paragraph and producing exactly this kind of wrapped/clipped/overlapping mess.",
+      "fix": "Replaced all 14 occurrences of `.featured-slider-two .active .s-item` with `.featured-slider-two .swiper-slide.swiper-slide-active .s-item` in _responsive.scss (global find/replace), matching the class Swiper's React bindings actually apply, consistent with how the base (non-responsive) _basic.scss rules already correctly reference it.",
+      "tags": ["css", "responsive", "mobile", "swiper", "hero", "theme-porting"],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-08-10T00:00:00Z",
+      "notes": "Not visually re-verified on an actual mobile viewport — no browser/screenshot tool was available in this environment (openwolf designqc is not present in the installed CLI version, no Playwright/Puppeteer dependency in the project). Confirmed only via code inspection (selector mismatch is provable) and that the page still renders (curl 200, dev server compiles). Ask the user to confirm the fix on a real device before considering this closed."
+    },
+    {
+      "id": "bug-005",
+      "timestamp": "2026-08-10T00:00:00Z",
+      "error_message": "User-reported (screenshot, mobile viewport): Home page's 'Unsere Arbeiten' Projekte teaser slider shows 3 tiny, overlapping/skewed project cards squeezed side by side, with titles truncated (e.g. 'Wohnraumg...', 'Raumaussta...')",
+      "file": "src/components/views/Home/Projekte.tsx",
+      "root_cause": "The Swiper config hardcoded `slidesPerView={3}` with no responsive `breakpoints`, so it showed exactly 3 slides per view at every viewport width including phones — each slide ended up roughly (375px - 2*30px gap)/3 ≈ 105px wide, far too narrow for the card's image + title + description, causing the cramped/overlapping/truncated appearance in the screenshot. `GallerySlider.tsx` (the Projekt-detail image slider) already used `slidesPerView={1}` with no such issue.",
+      "fix": "Changed the base `slidesPerView`/`spaceBetween` to 1/20 and added a `breakpoints` prop: 2 slides at >=576px, 3 slides at >=992px (desktop, matching the original fixed value). No change needed elsewhere since this was the only Swiper instance in the project with a hardcoded slidesPerView > 1 and no breakpoints (grepped for `slidesPerView` across `src/`).",
+      "tags": ["css", "responsive", "mobile", "swiper", "projekte", "home"],
+      "related_bugs": ["bug-004"],
+      "occurrences": 1,
+      "last_seen": "2026-08-10T00:00:00Z",
+      "notes": "Same environment limitation as bug-004 — no browser/screenshot tool available, fix is code-verified (the responsive-breakpoints mechanism is standard Swiper behavior) but not visually re-confirmed on a real device."
     }
   ]
 }

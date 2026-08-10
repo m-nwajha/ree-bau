@@ -5,9 +5,11 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
-import type { GalleryItem } from "@/@types/gallery";
+import { slugify } from "@/utils/slugify";
+import type { ProjektItem } from "@/@types/projekt";
+import "./style.css";
 
-const Gallery = ({ data }: { data: GalleryItem[] }) => {
+const Projekte = ({ data }: { data: ProjektItem[] }) => {
   const visibleItems = data.slice(-5);
 
   return (
@@ -16,15 +18,19 @@ const Gallery = ({ data }: { data: GalleryItem[] }) => {
         <figure>
           <img src="/images/heading-icon.png" alt="Heading Icon" />
         </figure>
-        <span>Galerie</span>
+        <span>Projekte</span>
         <h2>Unsere Arbeiten</h2>
       </div>
       <div className="container">
         <Swiper
           modules={[Pagination]}
           pagination={{ clickable: true }}
-          slidesPerView={3}
-          spaceBetween={30}
+          slidesPerView={1}
+          spaceBetween={20}
+          breakpoints={{
+            576: { slidesPerView: 2, spaceBetween: 20 },
+            992: { slidesPerView: 3, spaceBetween: 30 },
+          }}
           className="swiper-container project-slider"
         >
           {visibleItems.map((item) => (
@@ -35,9 +41,15 @@ const Gallery = ({ data }: { data: GalleryItem[] }) => {
                 </figure>
                 <div className="project-data">
                   <h3>
-                    <Link href="/galerie">{item.title}</Link>
+                    <Link href={`/projekte/${slugify(item.title)}`}>
+                      {item.title}
+                    </Link>
                   </h3>
-                  <Link className="project-icon" href="/galerie">
+                  <p>{item.short}</p>
+                  <Link
+                    className="project-icon"
+                    href={`/projekte/${slugify(item.title)}`}
+                  >
                     <i className="fa-solid fa-angles-right" />
                   </Link>
                 </div>
@@ -51,4 +63,4 @@ const Gallery = ({ data }: { data: GalleryItem[] }) => {
   );
 };
 
-export default Gallery;
+export default Projekte;

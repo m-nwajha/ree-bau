@@ -22,7 +22,12 @@ const Footer = () => {
             <div className="footer-first">
               <div className="footer-logo">
                 <Link href="/">
-                  <Image src="/images/logo.png" alt="REEBAU" width={70} height={70} />
+                  <Image
+                    src="/images/logo.png"
+                    alt="REEBAU"
+                    width={70}
+                    height={70}
+                  />
                 </Link>
               </div>
               <div className="contact-info d-flex-all">
@@ -52,7 +57,8 @@ const Footer = () => {
                 </p>
               </div>
               <Link href="/kontakt" className="theme-btn">
-                Jetzt kontaktieren
+                Jetzt absenden
+                <i className="fa-solid fa-envelope" />
               </Link>
             </div>
           </div>
@@ -88,8 +94,8 @@ const Footer = () => {
               <div className="footer-col">
                 <h3>Rückruf anfordern</h3>
                 <p>
-                  Hinterlassen Sie uns Ihre Telefonnummer und wir melden uns
-                  bei Ihnen.
+                  Hinterlassen Sie uns Ihre Telefonnummer und wir melden uns bei
+                  Ihnen.
                 </p>
                 <form>
                   <input
@@ -114,14 +120,23 @@ const Footer = () => {
             <div className="footer-col">
               <p>
                 © {year} Ree Bau – Powered By{" "}
-                <a href="https://orionlens.net/" target="_blank" rel="noreferrer">
+                <a
+                  href="https://orionlens.net/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   OrionLens
                 </a>
               </p>
 
               <div className="social-medias">
                 {socialLinks.map((item) => (
-                  <a href={item.href} target="_blank" rel="noreferrer" key={item.title}>
+                  <a
+                    href={item.href}
+                    target="_blank"
+                    rel="noreferrer"
+                    key={item.title}
+                  >
                     {item.title}
                   </a>
                 ))}

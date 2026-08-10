@@ -13,7 +13,7 @@ export const navbarRoutes: NavRoute[] = [
       })),
     ],
   },
-  { title: "Galerie", href: "/galerie" },
+  { title: "Projekte", href: "/projekte" },
   { title: "Über uns", href: "/ueber-uns" },
   { title: "Kontakt", href: "/kontakt" },
 ];

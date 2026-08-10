@@ -24,7 +24,7 @@ const items = [
   },
 ];
 
-const WhyUs = () => {
+const WhyUs = ({ data = items }) => {
   return (
     <section className="gap no-top pricing-plans">
       <div className="heading">
@@ -36,7 +36,7 @@ const WhyUs = () => {
       </div>
       <div className="container">
         <div className="row">
-          {items.map((item) => (
+          {data.map((item) => (
             <div key={item.title} className="col-lg-4 col-md-6 col-sm-12">
               <div className="main-price">
                 <div className="price-box">

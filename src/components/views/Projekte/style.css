@@ -1,0 +1,6 @@
+.project-style-one .project-post .project-data p {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

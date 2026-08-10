@@ -77,4 +77,19 @@ export const services: Service[] = [
       "Präzise Verarbeitung",
     ],
   },
+  {
+    slug: "bodenverlegung2",
+    title: "Bodenverlegung2",
+    text: "Verlegung von Laminat, Vinyl und Fertigparkett nach Herstellervorgaben.",
+    icon: "fa-solid fa-layer-group",
+    link: "/services/bodenverlegung2",
+    image: "/images/image-320x240%20(1).jpg",
+    checklist: [
+      "Laminat",
+      "Vinyl",
+      "Fertigparkett",
+      "Geeignete Vorbereitung des Untergrunds",
+      "Präzise Verarbeitung",
+    ],
+  },
 ];

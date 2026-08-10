@@ -3,10 +3,10 @@ import Services from "./Services";
 import HowWeWork from "./HowWeWork";
 import About from "./About";
 import WhyUs from "./WhyUs";
-import Gallery from "./Gallery";
+import Projekte from "./Projekte";
 import ContactFaq from "./ContactFaq";
 import { services } from "@/mocks/services";
-import { gallery } from "@/mocks/gallery";
+import { projekte } from "@/mocks/projekt";
 
 const HomePage = () => {
   return (
@@ -15,7 +15,7 @@ const HomePage = () => {
       <About />
       <WhyUs />
       <Services isHome={true} data={services} />
-      <Gallery data={gallery} />
+      <Projekte data={projekte} />
       <HowWeWork />
       <ContactFaq />
     </>
