@@ -1,18 +1,28 @@
 "use client";
-
+import { useEffect, useState } from "react";
 import Link from "next/link";
-import { useLocalStorage } from "@/hooks/useLocalStorage";
 import "./style.css";
 
-type ConsentValue = "accepted" | "declined" | null;
+const COOKIE_CONSENT_KEY = "roi_bau_cookie_consent";
 
 const CookieConsent = () => {
-  const [consent, setConsent] = useLocalStorage<ConsentValue>(
-    "cookie-consent",
-    null,
-  );
+  const [visible, setVisible] = useState(false);
 
-  if (consent !== null) return null;
+  useEffect(() => {
+    const consent = localStorage.getItem(COOKIE_CONSENT_KEY);
+    if (!consent) {
+      setTimeout(() => {
+        setVisible(true);
+      }, 0);
+    }
+  }, []);
+
+  const handleChoice = (choice: "accepted" | "declined") => {
+    localStorage.setItem(COOKIE_CONSENT_KEY, choice);
+    setVisible(false);
+  };
+
+  if (!visible) return null;
 
   return (
     <div className="cookie-consent" role="dialog" aria-label="Cookie-Hinweis">
@@ -25,14 +35,14 @@ const CookieConsent = () => {
         <button
           type="button"
           className="cookie-consent-decline"
-          onClick={() => setConsent("declined")}
+          onClick={() => handleChoice("declined")}
         >
           Ablehnen
         </button>
         <button
           type="button"
           className="cookie-consent-accept"
-          onClick={() => setConsent("accepted")}
+          onClick={() => handleChoice("accepted")}
         >
           Akzeptieren
         </button>

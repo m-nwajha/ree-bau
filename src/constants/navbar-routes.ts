@@ -1,4 +1,5 @@
 import type { NavRoute } from "@/@types/navigation";
+import { services } from "@/mocks/services";
 
 export const navbarRoutes: NavRoute[] = [
   { title: "Home", href: "/" },
@@ -6,12 +7,10 @@ export const navbarRoutes: NavRoute[] = [
     title: "Services",
     href: "/services",
     subRoutes: [
-      { title: "Bodenleger", href: "/services/bodenleger" },
-      { title: "Maler", href: "/services/maler" },
-      { title: "Fliesenleger", href: "/services/fliesenleger" },
-      { title: "Renovierer", href: "/services/renovierer" },
-      { title: "Haustüren", href: "/services/haustueren" },
-      { title: "Trockenbau", href: "/services/trockenbau" },
+      ...services.map((service) => ({
+        title: service.title,
+        href: `/services/${service.slug}`,
+      })),
     ],
   },
   { title: "Galerie", href: "/galerie" },

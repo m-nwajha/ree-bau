@@ -56,7 +56,6 @@
 | `src/components/ui/Button`, `Popup` (generic primitives) | ⬜ not started | |
 | Footer Newsletter form | ⬜ open decision | No real backend wired (theme used Mailchimp placeholder keys) — needs a real provider or should be dropped. |
 | Google Maps / translation | ⬜ open decision | Kontakt page's map itself is done (real-address embed); no translation library in place. |
-| No git commit since `2c1710d` | ⬜ | Breadcrumb, Über-uns rebuild, Kontakt, contact-form-fields extraction, Galerie + GalleryPopup, Services additions, ServiceDetail/`[slug]`, and now Legal pages are all uncommitted. |
 
 ### Closed decisions
 - Site content sourced from `.wolf/reebau-content.md` (mirrors user-provided `.local/contant.md`, which is gitignored).
