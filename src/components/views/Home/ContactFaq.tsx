@@ -32,7 +32,7 @@ const ContactFaq = () => {
           <img src="/images/heading-icon.png" alt="heading-icon" />
         </figure>
         <span>Kontakt</span>
-        <h2>Fragen &amp; Kontakt</h2>
+        <h2>Fragen &amp; Beratun</h2>
       </div>
       <div className="container">
         <div className="row align-items-center">
@@ -63,7 +63,7 @@ const ContactFaq = () => {
                 <form onSubmit={handleSubmit}>
                   <ContactFormFields values={values} onChange={handleChange} />
                   <button type="submit" className="theme-btn">
-                    Jetzt absenden
+                    Anfrage senden
                     <i className="fa-solid fa-angles-right" />
                   </button>
                 </form>

@@ -12,7 +12,7 @@ const Services = ({ data, isHome }: { data: Service[]; isHome?: boolean }) => {
           <img src="/images/heading-icon.png" alt="heading-icon" />
         </figure>
         <span>Services</span>
-        <h2>Was wir bieten</h2>
+        <h2>Unsere Leistun</h2>
       </div>
       <div className="container">
         <div className="row g-0">
@@ -40,7 +40,7 @@ const Services = ({ data, isHome }: { data: Service[]; isHome?: boolean }) => {
             <div className="col-lg-4 col-md-6 col-sm-12">
               <div className="service-two-box last d-flex-all">
                 <Link href="/services">
-                  Alle Services ansehen
+                  Alle Leistungen sehen
                   <span className="d-flex-all d-inline-flex">
                     <i className="fa-solid fa-angles-right" />
                   </span>

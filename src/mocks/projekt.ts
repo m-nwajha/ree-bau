@@ -16,7 +16,7 @@ export const projekte: ProjektItem[] = [
   },
   {
     id: "raumausstattung",
-    title: "Raumausstattung",
+    title: "Raumgestaltung.",
     short:
       "Optische und funktionale Aufwertung von Räumen ganz nach den Wünschen unserer Kunden.",
     content:

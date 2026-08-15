@@ -6,20 +6,20 @@ const About = () => {
           <img src="/images/heading-icon.png" alt="heading-icon" />
         </figure>
         <span>Über REEBAU</span>
-        <h2>Qualität. Zuverlässigkeit. Präzision.</h2>
+        <h2>Qualität. Verlässlichkeit. Präzision.</h2>
       </div>
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-6">
             <div className="data">
-              <h4>Maßgeschneiderte Lösungen</h4>
+              <h4>Individuelle Raumlösungen</h4>
               <p>
                 REEBAU bietet individuelle Lösungen, die an die Anforderungen
                 und Wünsche des jeweiligen Kunden angepasst werden.
               </p>
             </div>
             <div className="data p2">
-              <h4>Erfahrenes Team</h4>
+              <h4>Kompetentes Tea</h4>
               <ul>
                 <li>Präzision</li>
                 <li>Zuverlässigkeit</li>

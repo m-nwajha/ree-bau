@@ -7,11 +7,11 @@ export const faqs: FaqItem[] = [
     text: "REEBAU bietet Innenausbau, Raumausstattung, Trockenbau, Malerarbeiten und Bodenverlegung für private und gewerbliche Bauprojekte.",
   },
   {
-    title: "Worauf ist REEBAU spezialisiert?",
+    title: "Wofür steht REEBAU im Innenausba",
     text: "Das Unternehmen ist besonders auf Trockenbau spezialisiert und bietet ergänzende Leistungen für unterschiedliche Bauprojekte an.",
   },
   {
-    title: "Wie viele Jahre Erfahrung hat REEBAU?",
+    title: "Wie lange ist REEBAU schon erfahren?.",
     text: "REEBAU verfügt laut Website über 10 Jahre Erfahrung.",
   },
   {

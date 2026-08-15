@@ -19,7 +19,7 @@ const Projekte = ({ data }: { data: ProjektItem[] }) => {
           <img src="/images/heading-icon.png" alt="Heading Icon" />
         </figure>
         <span>Projekte</span>
-        <h2>Unsere Arbeiten</h2>
+        <h2>Unsere Projekte</h2>
       </div>
       <div className="container">
         <Swiper

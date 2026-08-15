@@ -70,7 +70,7 @@ const Footer = () => {
           <div className="row">
             <div className="col-lg-4 col-md-6 col-sm-12">
               <div className="footer-col">
-                <h3>Über REEBAU</h3>
+                <h3>REEBAU komp</h3>
                 <p>
                   REEBAU ist ein zuverlässiges Bau- und Trockenbauunternehmen
                   mit Fokus auf Qualität, Professionalität und präzise
@@ -80,7 +80,7 @@ const Footer = () => {
             </div>
             <div className="col-lg-4 col-md-6 col-sm-12">
               <div className="footer-col">
-                <h3>Nützliche Links</h3>
+                <h3>Direkte Links!.</h3>
                 <ul className="footer-links">
                   {usefulLinks.map((link) => (
                     <li key={link.title}>
@@ -92,7 +92,7 @@ const Footer = () => {
             </div>
             <div className="col-lg-4 col-md-6 col-sm-12">
               <div className="footer-col">
-                <h3>Rückruf anfordern</h3>
+                <h3>Rückruf vereinbar</h3>
                 <p>
                   Hinterlassen Sie uns Ihre Telefonnummer und wir melden uns bei
                   Ihnen.

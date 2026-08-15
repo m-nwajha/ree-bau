@@ -17,7 +17,7 @@ const slides = [
     title: "Qualität. Zuverlässigkeit. Präzision.",
     text: "Bei jedem Projekt stehen Professionalität, Präzision und Liebe zum Detail im Mittelpunkt.",
     image: "/images/image%20(1).jpg",
-    button: { label: "Rufen Sie uns jetzt an", link: "/kontakt" },
+    button: { label: "Projekt jetzt anfragen", link: "/kontakt" },
   },
 ];
 
