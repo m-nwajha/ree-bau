@@ -18,9 +18,18 @@ const Header = () => {
   const [desktopMenu, setDesktopMenu] = useState(false);
   const [mobileMenu, setMobileMenu] = useState(false);
   const [isSticky, setIsSticky] = useState(false);
+  const [scrollProgress, setScrollProgress] = useState(0);
 
   useEffect(() => {
-    const handleScroll = () => setIsSticky(window.scrollY > 80);
+    const handleScroll = () => {
+      setIsSticky(window.scrollY > 80);
+
+      const scrollableHeight =
+        document.documentElement.scrollHeight - window.innerHeight;
+      const progress =
+        scrollableHeight > 0 ? (window.scrollY / scrollableHeight) * 100 : 0;
+      setScrollProgress(Math.min(100, Math.max(0, progress)));
+    };
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
@@ -193,6 +202,10 @@ const Header = () => {
                 </div>
               </div>
             </div>
+            <div
+              className="scroll-progress-bar"
+              style={{ width: `${scrollProgress}%` }}
+            />
           </div>
 
           <div className="mobile-nav mobile-menu" id="mobile-nav">

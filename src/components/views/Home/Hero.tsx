@@ -10,7 +10,7 @@ const slides = [
   {
     title: "Bauliche Exzellenz",
     text: "REEBAU ist ein zuverlässiges Bau- und Trockenbauunternehmen mit Fokus auf Qualität, Professionalität und präzise handwerkliche Umsetzung.",
-    image: "/images/image.jpg",
+    image: "/images/b92ee98117066e4d645d28b54cbb5ec22dce0869.gif",
     button: { label: "Jetzt kontaktieren", link: "/kontakt" },
   },
   {
@@ -26,7 +26,7 @@ const Hero = () => {
     <section className="featured-slider-two">
       <div
         className="parallax"
-        style={{ backgroundImage: "url(/images/pattren-4.png)" }}
+        style={{ backgroundImage: "url(/images/hero-bg.png)" }}
       />
       <div className="f-2-s-nav">
         <button className="swiper-nav-prev">
