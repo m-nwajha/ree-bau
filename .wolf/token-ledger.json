@@ -2,19 +2,19 @@
   "version": 1,
   "created_at": "2026-08-08T11:51:58.553Z",
   "lifetime": {
-    "total_tokens_estimated": 550291,
-    "total_reads": 1100,
+    "total_tokens_estimated": 601127,
+    "total_reads": 1106,
     "total_writes": 0,
     "total_sessions": 10,
-    "anatomy_hits": 177,
-    "anatomy_misses": 901,
-    "repeated_reads_blocked": 502,
-    "estimated_savings_vs_bare_cli": 2586667,
-    "real_input_tokens": 273154,
-    "real_output_tokens": 10086505,
-    "real_cache_read_tokens": 3442545552,
-    "real_cache_creation_tokens": 62250333,
-    "real_api_calls": 12924
+    "anatomy_hits": 182,
+    "anatomy_misses": 902,
+    "repeated_reads_blocked": 503,
+    "estimated_savings_vs_bare_cli": 2590715,
+    "real_input_tokens": 273352,
+    "real_output_tokens": 10101888,
+    "real_cache_read_tokens": 3445629313,
+    "real_cache_creation_tokens": 62333081,
+    "real_api_calls": 12972
   },
   "sessions": [
     {
@@ -7623,6 +7623,66 @@
         "cache_read_input_tokens": 622749,
         "cache_creation_input_tokens": 24760,
         "api_calls": 13
+      }
+    },
+    {
+      "id": "session-2026-08-15-2024",
+      "agent": "claude",
+      "started": "2026-08-15T17:24:14.343Z",
+      "ended": "2026-08-18T17:10:38.912Z",
+      "reads": [
+        {
+          "file": "d:/orionlens/ree-bau/src/components/views/Home/Hero.tsx",
+          "tokens_estimated": 671,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "d:/orionlens/ree-bau/src/styles/scss/_basic.scss",
+          "tokens_estimated": 46798,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "C:/Users/MOHAME~1/AppData/Local/Temp/claude/bundled-skills/2.1.234/29b09483969287ea56b3c016a3c3dc59/run/examples/playwright.md",
+          "tokens_estimated": 0,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "d:/orionlens/ree-bau/src/components/common/Header/index.tsx",
+          "tokens_estimated": 3048,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "d:/orionlens/ree-bau/src/components/common/Header/style.css",
+          "tokens_estimated": 99,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "d:/orionlens/ree-bau/src/styles/scss/variables.module.scss",
+          "tokens_estimated": 220,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        }
+      ],
+      "writes": [],
+      "totals": {
+        "input_tokens_estimated": 50836,
+        "output_tokens_estimated": 0,
+        "reads_count": 6,
+        "writes_count": 0,
+        "repeated_reads_blocked": 1,
+        "anatomy_lookups": 5
+      },
+      "real_usage": {
+        "input_tokens": 198,
+        "output_tokens": 15383,
+        "cache_read_input_tokens": 3083761,
+        "cache_creation_input_tokens": 82748,
+        "api_calls": 48
       }
     }
   ],

@@ -202,10 +202,12 @@ const Header = () => {
                 </div>
               </div>
             </div>
-            <div
-              className="scroll-progress-bar"
-              style={{ width: `${scrollProgress}%` }}
-            />
+            {isSticky && (
+              <div
+                className="scroll-progress-bar"
+                style={{ width: `${scrollProgress}%` }}
+              />
+            )}
           </div>
 
           <div className="mobile-nav mobile-menu" id="mobile-nav">
@@ -239,15 +241,17 @@ const Header = () => {
 
           <div className="mobile-nav desktop-menu">
             <h2>Bauliche Exzellenz</h2>
-            <p className="des" style={{color: "white"}}>
+            <p className="des" style={{ color: "white" }}>
               REEBAU ist ein zuverlässiges Bau- und Trockenbauunternehmen mit
               Fokus auf Qualität, Professionalität und präzise handwerkliche
               Umsetzung.
             </p>
 
             <h3>Kontakt</h3>
-            <p className="num" style={{color: "white"}} >{contactInfo.phone}</p>
-            <p className="adrs" style={{color: "white"}}>
+            <p className="num" style={{ color: "white" }}>
+              {contactInfo.phone}
+            </p>
+            <p className="adrs" style={{ color: "white" }}>
               {contactInfo.address.street}, {contactInfo.address.zip}{" "}
               {contactInfo.address.city}, {contactInfo.address.state}
             </p>

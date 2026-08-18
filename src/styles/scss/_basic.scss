@@ -5057,6 +5057,16 @@ ul.social-medias {
     z-index: 0;
     padding-top: 120px;
 }
+.featured-slider-two .parallax:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: $black;
+    opacity: 0.8;
+}
 .featured-slider-two .swiper-slide.swiper-slide-active .s-item {
     height: auto;
 }
