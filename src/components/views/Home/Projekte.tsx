@@ -13,7 +13,7 @@ const Projekte = ({ data }: { data: ProjektItem[] }) => {
   const visibleItems = data.slice(-5);
 
   return (
-    <section className="gap project-style-one light-bg-color">
+    <section id="projects-section" className="gap project-style-one light-bg-color">
       <div className="heading">
         <figure>
           <img src="/images/heading-icon.png" alt="Heading Icon" />

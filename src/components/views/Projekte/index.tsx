@@ -11,7 +11,7 @@ const ProjektePage = ({ data }: { data: ProjektItem[] }) => {
         description="Ein Einblick in abgeschlossene Projekte von REEBAU."
       />
 
-      <section className="gap project-style-one addition">
+      <section id="project-page" className="gap project-style-one addition">
         <div className="container">
           <div className="row project-slider">
             {data.map((item) => (

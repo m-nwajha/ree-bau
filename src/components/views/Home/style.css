@@ -101,3 +101,10 @@ body.light-d .service-style-two .service-two-box:hover p {
 .contact-form-one .c-form-2 form .col-md-6 {
   margin-bottom: 20px;
 }
+#projects-section .project-post .project-data .project-icon {
+  transform: skew(345deg);
+}
+#projects-section .project-post:hover .project-data .project-icon {
+  right: 19px;
+  transform: skew(345deg);
+}

@@ -4,3 +4,7 @@
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
+
+#project-page .project-post .project-data:hover .project-icon {
+  right: 34px !important;
+}
