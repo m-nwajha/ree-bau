@@ -50,10 +50,10 @@ const WhyUs = ({ data = items }) => {
                     <i className="fa-solid fa-angles-right" />
                   </Link>
                 </div>
-                <div className="features">
-                  <ul>
+                <div className="features  w-100">
+                  <ul className="d-block">
                     {item.features.map((feature) => (
-                      <li key={feature}>
+                      <li  className="d-block" key={feature}>
                         <i className="fa-solid fa-circle-check" /> {feature}
                       </li>
                     ))}
