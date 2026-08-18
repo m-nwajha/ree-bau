@@ -108,3 +108,13 @@ body.light-d .service-style-two .service-two-box:hover p {
   right: 19px;
   transform: skew(345deg);
 }
+
+.service-style-one .service-data .icon {
+  margin-left: 52px;
+}
+
+@media (max-width: 992px) {
+  .service-style-one .service-data .icon {
+    margin-left: 0px;
+  }
+}
